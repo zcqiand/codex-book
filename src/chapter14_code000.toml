@@ -1,0 +1,5 @@
+# 从第 14 章提取
+# 来源：Codex 从入门到项目实践
+[[skills.config]]
+path = "/Users/me/.agents/skills/pr-review/SKILL.md"
+enabled = false

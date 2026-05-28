@@ -1,0 +1,10 @@
+# 从第 9 章提取
+# 来源：Codex 从入门到项目实践
+[approval]
+default_mode = "on-request"            # 默认策略
+# 使用 granular 模式时可细化：
+[approval.rules]
+file_reads = "auto"                    # 读文件不确认
+file_writes = "prompt"                 # 写文件需要确认
+commands = "prompt"                    # 执行命令需要确认
+network = "prompt"                     # 网络访问需要确认

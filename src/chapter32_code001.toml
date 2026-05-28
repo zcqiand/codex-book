@@ -1,0 +1,9 @@
+# 从第 32 章提取
+# 来源：Codex 从入门到项目实践
+
+[hooks.PreToolUse.shipment-inventory-check]
+command = "python"
+args = ["hooks/pre_shipment_check.py"]
+description = "发货前校验库存数据一致性"
+trigger_tools = ["Bash"]      # 在 Codex 准备执行 Bash 命令时触发
+trigger_pattern = "shipment"  # 仅当命令包含 "shipment" 时触发

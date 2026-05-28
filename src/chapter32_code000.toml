@@ -1,0 +1,18 @@
+# 从第 32 章提取
+# 来源：Codex 从入门到项目实践
+
+[[automations]]
+id = "check-stale-paid-orders"
+description = "每小时检查超过24小时未发货的已支付订单"
+schedule = "0 * * * *"   # 每小时执行一次
+prompt = """
+检查数据库中的 orders 表：
+1. 查询 status='paid' 且 created_at 超过 24 小时的订单
+2. 检查这些订单是否已有对应的 shipments 记录
+3. 对于没有发货记录的订单，输出：
+   - 订单号、用户ID、金额、创建时间
+   - 库存是否充足（检查对应商品的 available_quantity）
+4. 汇总：共发现 N 个超时未发货订单
+5. 如果 N > 0，标记为需要关注并输出详情；如果 N = 0，记录「无超时订单」
+"""
+enabled = true

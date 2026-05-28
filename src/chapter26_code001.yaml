@@ -1,0 +1,11 @@
+# 从第 26 章提取
+# 来源：Codex 从入门到项目实践
+- name: Install Codex
+  run: npm install -g @openai/codex
+- name: Run Codex Review
+  env:
+    OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+  run: |
+    codex exec \
+      --dangerously-bypass-approvals-and-sandbox \
+      "审查 git diff origin/main...HEAD 的变更，修复发现的问题"

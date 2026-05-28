@@ -1,0 +1,6 @@
+# 从第 17 章提取
+# 来源：Codex 从入门到项目实践
+[features.web_search]
+mode = "live"              # disabled | cached | live
+context_size = 8000        # 搜索结果上下文最大字符数
+allowed_domains = []       # 空 = 不限制；填写则只搜指定域名

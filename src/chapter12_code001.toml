@@ -1,0 +1,6 @@
+# 从第 12 章提取
+# 来源：Codex 从入门到项目实践
+env_vars = [
+    "LOCAL_TOKEN",                              # 从本地环境读取
+    { name = "REMOTE_TOKEN", source = "remote" } # 从远程执行环境读取
+]

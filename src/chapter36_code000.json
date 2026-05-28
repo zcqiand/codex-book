@@ -1,0 +1,42 @@
+{
+  "domain": "初中数学",
+  "grades": ["初一", "初二", "初三"],
+  "knowledge_points": [
+    {
+      "id": "alg-7-01",
+      "name": "一元一次方程的定义",
+      "grade": "初一",
+      "difficulty": 1,
+      "prerequisites": ["num-6-03"],
+      "sub_topics": ["等式的性质", "移项", "合并同类项"]
+    },
+    {
+      "id": "alg-7-02",
+      "name": "一元一次方程的解法",
+      "grade": "初一",
+      "difficulty": 2,
+      "prerequisites": ["alg-7-01", "num-7-01"],
+      "common_errors": [
+        {"pattern": "移项不变号", "count": 234, "error_type": "calculation_error"},
+        {"pattern": "去括号忘变号", "count": 187, "error_type": "concept_confusion"},
+        {"pattern": "系数化1时除错方向", "count": 156, "error_type": "calculation_error"}
+      ]
+    },
+    {
+      "id": "alg-7-03",
+      "name": "一元一次方程应用题",
+      "grade": "初一",
+      "difficulty": 3,
+      "prerequisites": ["alg-7-02"],
+      "problem_templates": ["行程问题", "工程问题", "利润问题", "浓度问题"]
+    },
+    {
+      "id": "alg-8-01",
+      "name": "二元一次方程组",
+      "grade": "初二",
+      "difficulty": 2,
+      "prerequisites": ["alg-7-02"],
+      "sub_topics": ["代入消元法", "加减消元法"]
+    }
+  ]
+}

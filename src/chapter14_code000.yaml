@@ -1,0 +1,17 @@
+# 从第 14 章提取
+# 来源：Codex 从入门到项目实践
+interface:
+  display_name: "PR Reviewer"
+  short_description: "Multi-angle code review"
+  brand_color: "#3B82F6"
+
+policy:
+  allow_implicit_invocation: true
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "github"
+      description: "GitHub API for PR access"
+      transport: "streamable_http"
+      url: "https://api.github.com/mcp"

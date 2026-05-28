@@ -1,0 +1,10 @@
+# 从第 9 章提取
+# 来源：Codex 从入门到项目实践
+[features]
+cyber_safety = true                    # 开启 Cyber Safety
+
+[cyber_safety]
+network_security_mode = "standard"     # 标准模式（默认）
+# 可选值：standard / strict（仅白名单） / relaxed（不推荐）
+blocked_domains = ["evil-site.com"]    # 额外阻止的域名
+allowed_domains = ["api.github.com"]   # strict 模式下的白名单

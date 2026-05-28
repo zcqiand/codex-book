@@ -1,0 +1,29 @@
+# 从第 38 章提取
+# 来源：Codex 从入门到项目实践
+
+name: weekly-learning-report
+schedule: "0 9 * * 0"   # 每周日早上9:00
+action:
+  type: skill
+  skill: learning-report
+  input:
+    period: "last_7_days"
+    students: "all"
+    output_format: "markdown"
+  notify:
+    channels: ["#learning-reports"]
+    summary: true
+
+---
+name: mastery-trend-analysis
+schedule: "0 8 1 * *"   # 每月1日早上8:00
+action:
+  type: agent
+  agent: planner
+  prompt: >
+    为所有学生生成本月掌握度趋势分析：
+    1. 对比月初和月末每个知识点的掌握度变化
+    2. 标记进步最快和最慢的 3 个知识点
+    3. 输出「下月教学建议」——哪些知识点需要更多练习
+  notify:
+    channels: ["#teacher-dashboard"]

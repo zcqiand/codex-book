@@ -1,0 +1,5 @@
+# 从第 10 章提取
+# 来源：Codex 从入门到项目实践
+[[skills.config]]
+path = "/path/to/skill/SKILL.md"
+enabled = false

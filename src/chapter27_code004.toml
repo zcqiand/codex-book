@@ -1,0 +1,7 @@
+# 从第 27 章提取
+# 来源：Codex 从入门到项目实践
+[hooks]
+  [hooks.PostToolUse]
+    [hooks.PostToolUse.audit]
+    command = "/opt/codex-managed/hooks/audit.sh"
+    matcher = ".*"

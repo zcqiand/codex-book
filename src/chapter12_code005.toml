@@ -1,0 +1,6 @@
+# 从第 12 章提取
+# 来源：Codex 从入门到项目实践
+[mcp_servers.github]
+url = "https://api.github.com/mcp"
+bearer_token_env_var = "GITHUB_TOKEN"
+http_headers = { "X-GitHub-Region" = "us-east-1" }

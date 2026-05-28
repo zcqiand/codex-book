@@ -1,0 +1,14 @@
+# 从第 7 章提取
+# 来源：Codex 从入门到项目实践
+# 一条规则同时拦截 force push 到 main 和 master
+[[rules.entries]]
+description = "禁止 force push 到主分支"
+pattern = "git push.*--force.*(main|master)"
+action = "forbid"
+scope = "manual"
+
+[[rules.entries]]
+description = "禁止删除远程分支"
+pattern = "git push.*--delete|git push.*:"
+action = "prompt"
+scope = "auto"

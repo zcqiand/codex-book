@@ -1,0 +1,4 @@
+# 从第 13 章提取
+# 来源：Codex 从入门到项目实践
+[plugins."gmail@openai-curated"]
+enabled = false
