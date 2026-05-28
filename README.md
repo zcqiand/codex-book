@@ -36,13 +36,13 @@
 
 ### 📋 按编程语言分类
 
-| 语言       | 文件数 | 说明                            |
-|------------|--------|---------------------------------|
-| TOML       | 42     | 配置文件（config.toml）         |
-| Python     | 41     | 后端脚本、SDK示例、数据处理     |
-| TypeScript | 14     | SDK 使用、类型定义              |
-| YAML       | 8      | CI/CD 配置、工作流              |
-| JSON       | 3      | 数据结构、API 响应              |
+| 语言       | 文件数 | 说明                        |
+| ---------- | ------ | --------------------------- |
+| TOML       | 42     | 配置文件（config.toml）     |
+| Python     | 41     | 后端脚本、SDK示例、数据处理 |
+| TypeScript | 14     | SDK 使用、类型定义          |
+| YAML       | 8      | CI/CD 配置、工作流          |
+| JSON       | 3      | 数据结构、API 响应          |
 
 ### 📂 章节覆盖
 
@@ -100,8 +100,8 @@ node src/chapter20_*.ts
 
 ## 配套资源
 
-- **GitHub 仓库**: <https://github.com/zcqiand/codex-book>
-- **勘误页面**: <https://github.com/zcqiand/codex-book/issues>
+- **GitHub 仓库**: [https://github.com/zcqiand/codex-book](https://github.com/zcqiand/codex-book)
+- **勘误页面**: [https://github.com/zcqiand/codex-book/issues](https://github.com/zcqiand/codex-book/issues)
 - **读者交流**: 1282301776@qq.com
 
 ## ⚠️ 注意事项
