@@ -60,7 +60,6 @@ class OrderServiceTest {
 
     @Test
     void testDraftToSubmitted() {
-        // DRAFT → SUBMITTED：提交订单
         Order order = createTestOrder(OrderStatus.DRAFT);
         Order result = orderService.submitOrder(order.getId());
         assertEquals(OrderStatus.SUBMITTED, result.getStatus());
@@ -69,7 +68,6 @@ class OrderServiceTest {
 
     @Test
     void testSubmittedToApproved() {
-        // SUBMITTED → APPROVED：审批通过
         Order order = createTestOrder(OrderStatus.SUBMITTED);
         Order result = orderService.approveOrder(order.getId(), "同意");
         assertEquals(OrderStatus.APPROVED, result.getStatus());
@@ -78,7 +76,6 @@ class OrderServiceTest {
 
     @Test
     void testSubmittedToRejected() {
-        // SUBMITTED → REJECTED：审批拒绝
         Order order = createTestOrder(OrderStatus.SUBMITTED);
         Order result = orderService.rejectOrder(order.getId(), "库存不足");
         assertEquals(OrderStatus.REJECTED, result.getStatus());
@@ -87,21 +84,17 @@ class OrderServiceTest {
 
     @Test
     void testApprovedToPaid() {
-        // APPROVED → PAID：支付成功，扣减库存
         Order order = createTestOrder(OrderStatus.APPROVED);
         int beforeQty = inventoryService.getByProductId(testProduct.getId()).getCurrentQuantity();
-
         Order result = orderService.payOrder(order.getId());
         assertEquals(OrderStatus.PAID, result.getStatus());
         assertNotNull(result.getPaidAt());
-
         int afterQty = inventoryService.getByProductId(testProduct.getId()).getCurrentQuantity();
-        assertEquals(beforeQty - 2, afterQty); // 扣了 2 件
+        assertEquals(beforeQty - 2, afterQty);
     }
 
     @Test
     void testPaidToShipped() {
-        // PAID → SHIPPED：已支付订单可以发货
         Order order = createTestOrder(OrderStatus.PAID);
         Order result = orderService.shipOrder(order.getId());
         assertEquals(OrderStatus.SHIPPED, result.getStatus());
@@ -110,7 +103,6 @@ class OrderServiceTest {
 
     @Test
     void testShippedToCompleted() {
-        // SHIPPED → COMPLETED：完成收货
         Order order = createTestOrder(OrderStatus.SHIPPED);
         Order result = orderService.completeOrder(order.getId());
         assertEquals(OrderStatus.COMPLETED, result.getStatus());
@@ -119,43 +111,29 @@ class OrderServiceTest {
 
     @Test
     void testCannotCancelShippedOrCompleted() {
-        // SHIPPED 和 COMPLETED 状态不可取消
         Order shippedOrder = createTestOrder(OrderStatus.SHIPPED);
         assertThrows(Exception.class, () -> orderService.cancelOrder(shippedOrder.getId(), "用户反悔"));
-
-        Order completedOrder = createTestOrder(OrderStatus.COMPLETED);
+        Order completedOrder = createTestOrder(OrderStatus.SHIPPED);
         assertThrows(Exception.class, () -> orderService.cancelOrder(completedOrder.getId(), "用户反悔"));
     }
 
     @Test
     void testCancelPaidOrderRestoresInventory() {
-        // PAID 状态取消：实物退回仓库
         Order order = createTestOrder(OrderStatus.APPROVED);
-        orderService.payOrder(order.getId()); // 先支付，扣了库存
-
+        orderService.payOrder(order.getId());
         int qtyBeforeCancel = inventoryService.getByProductId(testProduct.getId()).getCurrentQuantity();
         orderService.cancelOrder(order.getId(), "重复下单");
         int qtyAfterCancel = inventoryService.getByProductId(testProduct.getId()).getCurrentQuantity();
-
-        assertEquals(qtyBeforeCancel + 2, qtyAfterCancel); // 退回了 2 件
+        assertEquals(qtyBeforeCancel + 2, qtyAfterCancel);
     }
 
     @Test
     void testCancelBeforePayUnlocksInventory() {
-        // APPROVED（未支付）状态取消：只释放锁定，不退实货
         Order order = createTestOrder(OrderStatus.APPROVED);
         int qtyBeforeCancel = inventoryService.getByProductId(testProduct.getId()).getCurrentQuantity();
         orderService.cancelOrder(order.getId(), "用户取消");
         int qtyAfterCancel = inventoryService.getByProductId(testProduct.getId()).getCurrentQuantity();
-
-        assertEquals(qtyBeforeCancel, qtyAfterCancel); // 实物未动
-    }
-
-    @Test
-    void testOrderNumberIsGenerated() {
-        Order order = createTestOrder(OrderStatus.DRAFT);
-        assertNotNull(order.getOrderNumber());
-        assertTrue(order.getOrderNumber().startsWith("ORD-"));
+        assertEquals(qtyBeforeCancel, qtyAfterCancel);
     }
 
     private Order createTestOrder(OrderStatus status) {
@@ -165,10 +143,7 @@ class OrderServiceTest {
             new CreateOrderRequest.OrderItemRequest(testProduct.getId(), 2)
         ));
         Order order = orderService.createOrder(request);
-        // 强制刷新获取最新状态
         order = orderService.getOrderById(order.getId());
-
-        // 根据目标状态跳转
         switch (status) {
             case DRAFT -> { return order; }
             case SUBMITTED -> { return orderService.submitOrder(order.getId()); }

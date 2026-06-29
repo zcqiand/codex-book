@@ -1000,172 +1000,116 @@
     "source": null
   },
   {
-    "title": "代码清单28-1: text 代码片段",
+    "title": "代码清单28-1: 需求分析 Prompt 模板",
     "lang": "text",
     "chapter_file": "chapter-028.md",
-    "line": 131,
-    "extracted_file": "src\\代码清单28-1_ text 代码片段.txt",
-    "source": "code/ecommerce-oms/backend/src/main/resources/db/migration/V1__init_schema.sql"
+    "line": 153,
+    "extracted_file": "src\\代码清单28-1_ 需求分析 Prompt 模板.txt",
+    "source": null
   },
   {
-    "title": "代码清单28-2: Shell 命令",
+    "title": "代码清单28-2: 验证 Java 和 Maven 环境",
     "lang": "bash",
     "chapter_file": "chapter-028.md",
-    "line": 287,
-    "extracted_file": "src\\代码清单28-2_ Shell 命令.sh",
-    "source": "code/ecommerce-oms/.github/workflows/ci.yml"
+    "line": 305,
+    "extracted_file": "src\\代码清单28-2_ 验证 Java 和 Maven 环境.sh",
+    "source": null
   },
   {
-    "title": "代码清单28-3: 以 Profile 执行任务",
-    "lang": "bash",
-    "chapter_file": "chapter-028.md",
-    "line": 293,
-    "extracted_file": "src\\代码清单28-3_ 以 Profile 执行任务.sh",
-    "source": "code/ecommerce-oms/.github/workflows/ci.yml"
-  },
-  {
-    "title": "代码清单28-4: Maven 创建 Spring Boot 项目",
-    "lang": "bash",
-    "chapter_file": "chapter-028.md",
-    "line": 306,
-    "extracted_file": "src\\代码清单28-4_ Maven 创建 Spring Boot 项目.sh",
-    "source": "code/ecommerce-oms/.github/workflows/ci.yml"
-  },
-  {
-    "title": "代码清单28-5: Shell 命令",
-    "lang": "bash",
-    "chapter_file": "chapter-028.md",
-    "line": 319,
-    "extracted_file": "src\\代码清单28-5_ Shell 命令.sh",
-    "source": "code/ecommerce-oms/.github/workflows/ci.yml"
-  },
-  {
-    "title": "代码清单29-1: plaintext 代码片段",
-    "lang": "plaintext",
-    "chapter_file": "chapter-029.md",
-    "line": 77,
-    "extracted_file": "src\\代码清单29-1_ plaintext 代码片段.txt",
-    "source": "code/ecommerce-oms/backend/src/main/resources/db/migration/V1__init_schema.sql"
-  },
-  {
-    "title": "代码清单29-2: text 代码片段",
-    "lang": "text",
-    "chapter_file": "chapter-029.md",
-    "line": 171,
-    "extracted_file": "src\\代码清单29-2_ text 代码片段.txt",
-    "source": "code/ecommerce-oms/backend/src/main/java/com/zcqiand/ecommerce/entity/"
-  },
-  {
-    "title": "代码清单29-3: plaintext 代码片段",
-    "lang": "plaintext",
-    "chapter_file": "chapter-029.md",
-    "line": 205,
-    "extracted_file": "src\\代码清单29-3_ plaintext 代码片段.txt",
-    "source": "code/ecommerce-oms/backend/pom.xml"
-  },
-  {
-    "title": "代码清单29-4: application.yml 配置",
+    "title": "代码清单29-1: application.yml 配置",
     "lang": "yaml",
     "chapter_file": "chapter-029.md",
-    "line": 230,
-    "extracted_file": "src\\代码清单29-4_ application.yml 配置.yml",
+    "line": 244,
+    "extracted_file": "src\\代码清单29-1_ application.yml 配置.yml",
     "source": "code/ecommerce-oms/backend/src/main/resources/application.yml"
   },
   {
-    "title": "代码清单29-5: User.java",
+    "title": "代码清单29-2: User.java",
     "lang": "java",
     "chapter_file": "chapter-029.md",
-    "line": 295,
-    "extracted_file": "src\\代码清单29-5_ User.java.java",
+    "line": 339,
+    "extracted_file": "src\\代码清单29-2_ User.java.java",
     "source": "code/ecommerce-oms/backend/src/main/java/com/zcqiand/ecommerce/entity/User.java"
   },
   {
-    "title": "代码清单29-6: OrderStatus.java",
+    "title": "代码清单29-3: OrderStatus.java",
     "lang": "java",
     "chapter_file": "chapter-029.md",
-    "line": 336,
-    "extracted_file": "src\\代码清单29-6_ OrderStatus.java.java",
+    "line": 380,
+    "extracted_file": "src\\代码清单29-3_ OrderStatus.java.java",
     "source": "code/ecommerce-oms/backend/src/main/java/com/zcqiand/ecommerce/entity/OrderStatus.java"
   },
   {
-    "title": "代码清单29-7: Product.java",
+    "title": "代码清单29-4: Product.java",
     "lang": "java",
     "chapter_file": "chapter-029.md",
-    "line": 352,
-    "extracted_file": "src\\代码清单29-7_ Product.java.java",
+    "line": 396,
+    "extracted_file": "src\\代码清单29-4_ Product.java.java",
     "source": "code/ecommerce-oms/backend/src/main/java/com/zcqiand/ecommerce/entity/Product.java"
   },
   {
-    "title": "代码清单29-8: Inventory.java",
+    "title": "代码清单29-5: Inventory.java",
     "lang": "java",
     "chapter_file": "chapter-029.md",
-    "line": 395,
-    "extracted_file": "src\\代码清单29-8_ Inventory.java.java",
+    "line": 439,
+    "extracted_file": "src\\代码清单29-5_ Inventory.java.java",
     "source": "code/ecommerce-oms/backend/src/main/java/com/zcqiand/ecommerce/entity/Inventory.java"
   },
   {
-    "title": "代码清单29-9: Order.java",
+    "title": "代码清单29-6: Order.java",
     "lang": "java",
     "chapter_file": "chapter-029.md",
-    "line": 433,
-    "extracted_file": "src\\代码清单29-9_ Order.java.java",
+    "line": 477,
+    "extracted_file": "src\\代码清单29-6_ Order.java.java",
     "source": "code/ecommerce-oms/backend/src/main/java/com/zcqiand/ecommerce/entity/Order.java"
   },
   {
-    "title": "代码清单29-10: OrderItem.java",
+    "title": "代码清单29-7: OrderItem.java",
     "lang": "java",
     "chapter_file": "chapter-029.md",
-    "line": 496,
-    "extracted_file": "src\\代码清单29-10_ OrderItem.java.java",
+    "line": 540,
+    "extracted_file": "src\\代码清单29-7_ OrderItem.java.java",
     "source": "code/ecommerce-oms/backend/src/main/java/com/zcqiand/ecommerce/entity/OrderItem.java"
   },
   {
-    "title": "代码清单29-11: Supplier.java",
+    "title": "代码清单29-8: Supplier.java",
     "lang": "java",
     "chapter_file": "chapter-029.md",
-    "line": 532,
-    "extracted_file": "src\\代码清单29-11_ Supplier.java.java",
+    "line": 576,
+    "extracted_file": "src\\代码清单29-8_ Supplier.java.java",
     "source": "code/ecommerce-oms/backend/src/main/java/com/zcqiand/ecommerce/entity/Supplier.java"
   },
   {
-    "title": "代码清单29-12: V1__init_schema.sql",
+    "title": "代码清单29-9: V1__init_schema.sql",
     "lang": "sql",
     "chapter_file": "chapter-029.md",
-    "line": 587,
-    "extracted_file": "src\\代码清单29-12_ V1__init_schema.sql.sql",
+    "line": 651,
+    "extracted_file": "src\\代码清单29-9_ V1__init_schema.sql.sql",
     "source": "code/ecommerce-oms/backend/src/main/resources/db/migration/V1__init_schema.sql"
   },
   {
-    "title": "代码清单29-7: 以 Profile 执行任务",
+    "title": "代码清单29-10: 启动 PostgreSQL",
     "lang": "bash",
     "chapter_file": "chapter-029.md",
-    "line": 696,
-    "extracted_file": "src\\代码清单29-7_ 以 Profile 执行任务.sh",
-    "source": "code/ecommerce-oms/.github/workflows/ci.yml"
+    "line": 745,
+    "extracted_file": "src\\代码清单29-10_ 启动 PostgreSQL.sh",
+    "source": "code/ecommerce-oms/docker-compose.yml"
   },
   {
-    "title": "代码清单29-8: Maven 启动项目",
+    "title": "代码清单29-11: 执行 Flyway 迁移",
     "lang": "bash",
     "chapter_file": "chapter-029.md",
-    "line": 709,
-    "extracted_file": "src\\代码清单29-8_ Maven 启动项目.sh",
+    "line": 756,
+    "extracted_file": "src\\代码清单29-11_ 执行 Flyway 迁移.sh",
     "source": "code/ecommerce-oms/backend/pom.xml"
   },
   {
-    "title": "代码清单29-9: 以 Profile 执行任务",
+    "title": "代码清单29-12: 启动 Spring Boot 应用",
     "lang": "bash",
     "chapter_file": "chapter-029.md",
-    "line": 722,
-    "extracted_file": "src\\代码清单29-9_ 以 Profile 执行任务.sh",
-    "source": "code/ecommerce-oms/.github/workflows/ci.yml"
-  },
-  {
-    "title": "代码清单29-10: Flyway 迁移",
-    "lang": "bash",
-    "chapter_file": "chapter-029.md",
-    "line": 735,
-    "extracted_file": "src\\代码清单29-10_ Flyway 迁移.sh",
-    "source": "code/ecommerce-oms/docker-compose.yml"
+    "line": 768,
+    "extracted_file": "src\\代码清单29-12_ 启动 Spring Boot 应用.sh",
+    "source": "code/ecommerce-oms/backend/pom.xml"
   },
   {
     "title": "代码清单30-1: CreateOrderRequest.java",
@@ -1307,7 +1251,7 @@
     "title": "代码清单31-7: InventoryService 双源查询",
     "lang": "java",
     "chapter_file": "chapter-031.md",
-    "line": 437,
+    "line": 438,
     "extracted_file": "src\\代码清单31-7_ InventoryService 双源查询.java",
     "source": "code/ecommerce-oms/backend/src/main/java/com/zcqiand/ecommerce/service/InventoryService.java"
   },
@@ -1315,7 +1259,7 @@
     "title": "代码清单31-8: Shell 命令",
     "lang": "bash",
     "chapter_file": "chapter-031.md",
-    "line": 479,
+    "line": 480,
     "extracted_file": "src\\代码清单31-8_ Shell 命令.sh",
     "source": "code/ecommerce-oms/backend/"
   },
@@ -1323,7 +1267,7 @@
     "title": "代码清单31-9: Shell 命令",
     "lang": "bash",
     "chapter_file": "chapter-031.md",
-    "line": 508,
+    "line": 509,
     "extracted_file": "src\\代码清单31-9_ Shell 命令.sh",
     "source": "code/ecommerce-oms/backend/"
   },
@@ -1331,7 +1275,7 @@
     "title": "代码清单31-10: 库存对账脚本",
     "lang": "bash",
     "chapter_file": "chapter-031.md",
-    "line": 532,
+    "line": 533,
     "extracted_file": "src\\代码清单31-10_ 库存对账脚本.sh",
     "source": "code/ecommerce-oms/backend/"
   },
@@ -1563,7 +1507,7 @@
     "title": "代码清单34-2: Maven 测试命令",
     "lang": "bash",
     "chapter_file": "chapter-034.md",
-    "line": 230,
+    "line": 205,
     "extracted_file": "src\\代码清单34-2_ Maven 测试命令.sh",
     "source": "code/ecommerce-oms/backend/"
   },
@@ -1571,366 +1515,102 @@
     "title": "代码清单34-3: ci.yml",
     "lang": "yaml",
     "chapter_file": "chapter-034.md",
-    "line": 263,
+    "line": 235,
     "extracted_file": "src\\代码清单34-3_ ci.yml.yml",
     "source": "code/ecommerce-oms/.github/workflows/ci.yml"
   },
   {
-    "title": "代码清单34-4: Maven 测试命令",
-    "lang": "bash",
-    "chapter_file": "chapter-034.md",
-    "line": 425,
-    "extracted_file": "src\\代码清单34-4_ Maven 测试命令.sh",
-    "source": "code/ecommerce-oms/backend/"
-  },
-  {
-    "title": "代码清单34-5: GitHub Actions 验证",
-    "lang": "bash",
-    "chapter_file": "chapter-034.md",
-    "line": 443,
-    "extracted_file": "src\\代码清单34-5_ GitHub Actions 验证.sh",
-    "source": "code/ecommerce-oms/"
-  },
-  {
-    "title": "代码清单34-6: Docker Compose 命令",
-    "lang": "bash",
-    "chapter_file": "chapter-034.md",
-    "line": 463,
-    "extracted_file": "src\\代码清单34-6_ Docker Compose 命令.sh",
-    "source": "code/ecommerce-oms/docker-compose.yml"
-  },
-  {
-    "title": "代码清单35-1: backend Job 配置",
-    "lang": "yaml",
-    "chapter_file": "chapter-035.md",
-    "line": 17,
-    "extracted_file": "src\\代码清单35-1_ backend Job 配置.yml",
-    "source": "code/ecommerce-oms/.github/workflows/ci.yml"
-  },
-  {
-    "title": "代码清单35-2: frontend Job 配置",
-    "lang": "yaml",
-    "chapter_file": "chapter-035.md",
-    "line": 82,
-    "extracted_file": "src\\代码清单35-2_ frontend Job 配置.yml",
-    "source": "code/ecommerce-oms/.github/workflows/ci.yml"
-  },
-  {
-    "title": "代码清单35-3: docker-compose.yml",
-    "lang": "yaml",
-    "chapter_file": "chapter-035.md",
-    "line": 163,
-    "extracted_file": "src\\代码清单35-3_ docker-compose.yml.yml",
-    "source": "code/ecommerce-oms/docker-compose.yml"
-  },
-  {
-    "title": "代码清单35-4: 环境变量示例",
-    "lang": "bash",
-    "chapter_file": "chapter-035.md",
-    "line": 239,
-    "extracted_file": "src\\代码清单35-4_ 环境变量示例.sh",
-    "source": "code/ecommerce-oms/.env.example"
-  },
-  {
-    "title": "代码清单35-5: 多环境构建",
-    "lang": "bash",
-    "chapter_file": "chapter-035.md",
-    "line": 262,
-    "extracted_file": "src\\代码清单35-5_ 多环境构建.sh",
-    "source": "code/ecommerce-oms/frontend/"
-  },
-  {
-    "title": "代码清单35-6: 本地 CI 模拟",
-    "lang": "bash",
-    "chapter_file": "chapter-035.md",
-    "line": 275,
-    "extracted_file": "src\\代码清单35-6_ 本地 CI 模拟.sh",
-    "source": "code/ecommerce-oms/"
-  },
-  {
-    "title": "代码清单35-7: Docker Compose 部署",
-    "lang": "bash",
-    "chapter_file": "chapter-035.md",
-    "line": 302,
-    "extracted_file": "src\\代码清单35-7_ Docker Compose 部署.sh",
-    "source": "code/ecommerce-oms/docker-compose.yml"
-  },
-  {
-    "title": "代码清单35-8: 前端多环境构建",
-    "lang": "bash",
-    "chapter_file": "chapter-035.md",
-    "line": 329,
-    "extracted_file": "src\\代码清单35-8_ 前端多环境构建.sh",
-    "source": "code/ecommerce-oms/frontend/"
-  },
-  {
-    "title": "代码清单36-1: JSON 数据结构",
-    "lang": "json",
-    "chapter_file": "chapter-036.md",
-    "line": 15,
-    "extracted_file": "src\\代码清单36-1_ JSON 数据结构.json",
-    "source": "code/ai-tutoring-multi-agent/"
-  },
-  {
-    "title": "代码清单36-2: markdown 代码片段",
-    "lang": "markdown",
-    "chapter_file": "chapter-036.md",
-    "line": 80,
-    "extracted_file": "src\\代码清单36-2_ markdown 代码片段.md",
-    "source": "code/ai-tutoring-multi-agent/"
-  },
-  {
-    "title": "代码清单36-3: 错题记录函数",
+    "title": "代码清单35-1: SharedMemory 实现",
     "lang": "python",
-    "chapter_file": "chapter-036.md",
-    "line": 152,
-    "extracted_file": "src\\代码清单36-3_ 错题记录函数.py",
-    "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/"
+    "chapter_file": "chapter-035.md",
+    "line": 33,
+    "extracted_file": "src\\代码清单35-1_ SharedMemory 实现.py",
+    "source": null
   },
   {
-    "title": "代码清单36-4: Shell 命令",
-    "lang": "bash",
-    "chapter_file": "chapter-036.md",
-    "line": 221,
-    "extracted_file": "src\\代码清单36-4_ Shell 命令.sh",
-    "source": "code/ai-tutoring-multi-agent/"
-  },
-  {
-    "title": "代码清单36-5: Shell 命令",
-    "lang": "bash",
-    "chapter_file": "chapter-036.md",
-    "line": 235,
-    "extracted_file": "src\\代码清单36-5_ Shell 命令.sh",
-    "source": "code/ai-tutoring-multi-agent/"
-  },
-  {
-    "title": "代码清单36-6: Shell 命令",
-    "lang": "bash",
-    "chapter_file": "chapter-036.md",
-    "line": 246,
-    "extracted_file": "src\\代码清单36-6_ Shell 命令.sh",
-    "source": "code/ai-tutoring-multi-agent/"
-  },
-  {
-    "title": "代码清单37-1: 构建出题 Prompt",
+    "title": "代码清单35-2: Agent Loop 伪代码",
     "lang": "python",
-    "chapter_file": "chapter-037.md",
-    "line": 15,
-    "extracted_file": "src\\代码清单37-1_ 构建出题 Prompt.py",
-    "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/"
+    "chapter_file": "chapter-035.md",
+    "line": 60,
+    "extracted_file": "src\\代码清单35-2_ Agent Loop 伪代码.py",
+    "source": null
   },
   {
-    "title": "代码清单37-2: Python 代码片段",
+    "title": "代码清单35-3: PlannerAgent 实现",
     "lang": "python",
-    "chapter_file": "chapter-037.md",
-    "line": 82,
-    "extracted_file": "src\\代码清单37-2_ Python 代码片段.py",
-    "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/"
+    "chapter_file": "chapter-035.md",
+    "line": 116,
+    "extracted_file": "src\\代码清单35-3_ PlannerAgent 实现.py",
+    "source": null
   },
   {
-    "title": "代码清单37-3: 批改 Agent 实现",
+    "title": "代码清单35-4: TutorAgent 实现",
     "lang": "python",
-    "chapter_file": "chapter-037.md",
-    "line": 119,
-    "extracted_file": "src\\代码清单37-3_ 批改 Agent 实现.py",
-    "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/"
+    "chapter_file": "chapter-035.md",
+    "line": 149,
+    "extracted_file": "src\\代码清单35-4_ TutorAgent 实现.py",
+    "source": null
   },
   {
-    "title": "代码清单37-4: YAML 配置文件",
-    "lang": "yaml",
-    "chapter_file": "chapter-037.md",
-    "line": 189,
-    "extracted_file": "src\\代码清单37-4_ YAML 配置文件.yml",
-    "source": "code/ai-tutoring-multi-agent/"
+    "title": "代码清单35-5: EvaluatorAgent 实现",
+    "lang": "python",
+    "chapter_file": "chapter-035.md",
+    "line": 182,
+    "extracted_file": "src\\代码清单35-5_ EvaluatorAgent 实现.py",
+    "source": null
   },
   {
-    "title": "代码清单37-5: Shell 命令",
-    "lang": "bash",
-    "chapter_file": "chapter-037.md",
+    "title": "代码清单35-6: GraderAgent 实现",
+    "lang": "python",
+    "chapter_file": "chapter-035.md",
     "line": 218,
-    "extracted_file": "src\\代码清单37-5_ Shell 命令.sh",
-    "source": "code/ai-tutoring-multi-agent/"
+    "extracted_file": "src\\代码清单35-6_ GraderAgent 实现.py",
+    "source": null
   },
   {
-    "title": "代码清单37-6: Shell 命令",
-    "lang": "bash",
-    "chapter_file": "chapter-037.md",
-    "line": 262,
-    "extracted_file": "src\\代码清单37-6_ Shell 命令.sh",
-    "source": "code/ai-tutoring-multi-agent/"
-  },
-  {
-    "title": "代码清单37-7: Shell 命令",
-    "lang": "bash",
-    "chapter_file": "chapter-037.md",
-    "line": 275,
-    "extracted_file": "src\\代码清单37-7_ Shell 命令.sh",
-    "source": "code/ai-tutoring-multi-agent/"
-  },
-  {
-    "title": "代码清单37-8: Shell 命令",
-    "lang": "bash",
-    "chapter_file": "chapter-037.md",
-    "line": 283,
-    "extracted_file": "src\\代码清单37-8_ Shell 命令.sh",
-    "source": "code/ai-tutoring-multi-agent/"
-  },
-  {
-    "title": "代码清单38-1: 推荐下一知识点",
+    "title": "代码清单35-7: SocraticTutorAgent 实现",
     "lang": "python",
-    "chapter_file": "chapter-038.md",
-    "line": 15,
-    "extracted_file": "src\\代码清单38-1_ 推荐下一知识点.py",
-    "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/"
+    "chapter_file": "chapter-035.md",
+    "line": 242,
+    "extracted_file": "src\\代码清单35-7_ SocraticTutorAgent 实现.py",
+    "source": null
   },
   {
-    "title": "代码清单38-2: YAML 配置文件",
+    "title": "代码清单35-8: FakeClient 测试客户端",
+    "lang": "python",
+    "chapter_file": "chapter-035.md",
+    "line": 271,
+    "extracted_file": "src\\代码清单35-8_ FakeClient 测试客户端.py",
+    "source": null
+  },
+  {
+    "title": "代码清单35-9: 端到端测试用例",
+    "lang": "python",
+    "chapter_file": "chapter-035.md",
+    "line": 293,
+    "extracted_file": "src\\代码清单35-9_ 端到端测试用例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单35-1: 测试数据库配置",
     "lang": "yaml",
-    "chapter_file": "chapter-038.md",
-    "line": 80,
-    "extracted_file": "src\\代码清单38-2_ YAML 配置文件.yml",
-    "source": "code/ai-tutoring-multi-agent/"
+    "chapter_file": "chapter-035.md",
+    "line": 339,
+    "extracted_file": "src\\代码清单35-1_ 测试数据库配置.yml",
+    "source": null
   },
   {
-    "title": "代码清单38-3: TOML 配置文件",
-    "lang": "toml",
-    "chapter_file": "chapter-038.md",
-    "line": 138,
-    "extracted_file": "src\\代码清单38-3_ TOML 配置文件.txt",
-    "source": "code/ai-tutoring-multi-agent/"
-  },
-  {
-    "title": "代码清单38-4: Shell 命令",
+    "title": "代码清单35-2: .env.example",
     "lang": "bash",
-    "chapter_file": "chapter-038.md",
-    "line": 196,
-    "extracted_file": "src\\代码清单38-4_ Shell 命令.sh",
-    "source": "code/ai-tutoring-multi-agent/"
-  },
-  {
-    "title": "代码清单38-5: Shell 命令",
-    "lang": "bash",
-    "chapter_file": "chapter-038.md",
-    "line": 211,
-    "extracted_file": "src\\代码清单38-5_ Shell 命令.sh",
-    "source": "code/ai-tutoring-multi-agent/"
-  },
-  {
-    "title": "代码清单38-6: Shell 命令",
-    "lang": "bash",
-    "chapter_file": "chapter-038.md",
-    "line": 221,
-    "extracted_file": "src\\代码清单38-6_ Shell 命令.sh",
-    "source": "code/ai-tutoring-multi-agent/"
-  },
-  {
-    "title": "代码清单39-1: 辅导 Agent",
-    "lang": "python",
-    "chapter_file": "chapter-039.md",
-    "line": 13,
-    "extracted_file": "src\\代码清单39-1_ 辅导 Agent.py",
-    "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/"
-  },
-  {
-    "title": "代码清单39-2: manage_tutoring_context 函数",
-    "lang": "python",
-    "chapter_file": "chapter-039.md",
-    "line": 73,
-    "extracted_file": "src\\代码清单39-2_ manage_tutoring_context 函数.py",
-    "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/"
-  },
-  {
-    "title": "代码清单39-3: JSON 数据结构",
-    "lang": "json",
-    "chapter_file": "chapter-039.md",
-    "line": 136,
-    "extracted_file": "src\\代码清单39-3_ JSON 数据结构.json",
-    "source": "code/ai-tutoring-multi-agent/"
-  },
-  {
-    "title": "代码清单39-4: Shell 命令",
-    "lang": "bash",
-    "chapter_file": "chapter-039.md",
-    "line": 174,
-    "extracted_file": "src\\代码清单39-4_ Shell 命令.sh",
-    "source": "code/ai-tutoring-multi-agent/"
-  },
-  {
-    "title": "代码清单40-1: compute_learning_metrics 函数",
-    "lang": "python",
-    "chapter_file": "chapter-040.md",
-    "line": 13,
-    "extracted_file": "src\\代码清单40-1_ compute_learning_metrics 函数.py",
-    "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/"
-  },
-  {
-    "title": "代码清单40-2: generate_learning_curve_chart 函数",
-    "lang": "python",
-    "chapter_file": "chapter-040.md",
-    "line": 111,
-    "extracted_file": "src\\代码清单40-2_ generate_learning_curve_chart 函数.py",
-    "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/"
-  },
-  {
-    "title": "代码清单40-3: YAML 配置文件",
-    "lang": "yaml",
-    "chapter_file": "chapter-040.md",
-    "line": 186,
-    "extracted_file": "src\\代码清单40-3_ YAML 配置文件.yml",
-    "source": "code/ai-tutoring-multi-agent/"
-  },
-  {
-    "title": "代码清单40-4: Shell 命令",
-    "lang": "bash",
-    "chapter_file": "chapter-040.md",
-    "line": 258,
-    "extracted_file": "src\\代码清单40-4_ Shell 命令.sh",
-    "source": "code/ai-tutoring-multi-agent/"
-  },
-  {
-    "title": "代码清单40-5: Shell 命令",
-    "lang": "bash",
-    "chapter_file": "chapter-040.md",
-    "line": 277,
-    "extracted_file": "src\\代码清单40-5_ Shell 命令.sh",
-    "source": "code/ai-tutoring-multi-agent/"
-  },
-  {
-    "title": "代码清单40-6: Shell 命令",
-    "lang": "bash",
-    "chapter_file": "chapter-040.md",
-    "line": 290,
-    "extracted_file": "src\\代码清单40-6_ Shell 命令.sh",
-    "source": "code/ai-tutoring-multi-agent/"
-  },
-  {
-    "title": "代码清单41-1: 端到端集成测试",
-    "lang": "python",
-    "chapter_file": "chapter-041.md",
-    "line": 13,
-    "extracted_file": "src\\代码清单41-1_ 端到端集成测试.py",
-    "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/"
-  },
-  {
-    "title": "代码清单41-2: Shell 命令",
-    "lang": "bash",
-    "chapter_file": "chapter-041.md",
-    "line": 138,
-    "extracted_file": "src\\代码清单41-2_ Shell 命令.sh",
-    "source": "code/ai-tutoring-multi-agent/"
-  },
-  {
-    "title": "代码清单41-3: Shell 命令",
-    "lang": "bash",
-    "chapter_file": "chapter-041.md",
-    "line": 171,
-    "extracted_file": "src\\代码清单41-3_ Shell 命令.sh",
-    "source": "code/ai-tutoring-multi-agent/"
+    "chapter_file": "chapter-035.md",
+    "line": 364,
+    "extracted_file": "src\\代码清单35-2_ .env.example.sh",
+    "source": null
   },
   {
     "title": "代码清单36-1: 核心三 Agent 函数签名",
     "lang": "python",
-    "chapter_file": "chapter-36.md",
+    "chapter_file": "chapter-036.md",
     "line": 15,
     "extracted_file": "src\\代码清单36-1_ 核心三 Agent 函数签名.py",
     "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/agents.py"
@@ -1938,7 +1618,7 @@
   {
     "title": "代码清单36-2: 出题与批改 Agent 函数签名",
     "lang": "python",
-    "chapter_file": "chapter-36.md",
+    "chapter_file": "chapter-036.md",
     "line": 45,
     "extracted_file": "src\\代码清单36-2_ 出题与批改 Agent 函数签名.py",
     "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/"
@@ -1946,7 +1626,7 @@
   {
     "title": "代码清单36-3: 苏格拉底辅导 Agent 函数签名",
     "lang": "python",
-    "chapter_file": "chapter-36.md",
+    "chapter_file": "chapter-036.md",
     "line": 65,
     "extracted_file": "src\\代码清单36-3_ 苏格拉底辅导 Agent 函数签名.py",
     "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/socratic_tutor.py"
@@ -1954,7 +1634,7 @@
   {
     "title": "代码清单36-4: SharedMemory 与快照类",
     "lang": "python",
-    "chapter_file": "chapter-36.md",
+    "chapter_file": "chapter-036.md",
     "line": 110,
     "extracted_file": "src\\代码清单36-4_ SharedMemory 与快照类.py",
     "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/shared_memory.py"
@@ -1962,7 +1642,7 @@
   {
     "title": "代码清单36-5: CostTracker",
     "lang": "python",
-    "chapter_file": "chapter-36.md",
+    "chapter_file": "chapter-036.md",
     "line": 181,
     "extracted_file": "src\\代码清单36-5_ CostTracker.py",
     "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/cost_tracker.py"
@@ -1970,7 +1650,7 @@
   {
     "title": "代码清单36-6: Agent 定义文件",
     "lang": "bash",
-    "chapter_file": "chapter-36.md",
+    "chapter_file": "chapter-036.md",
     "line": 209,
     "extracted_file": "src\\代码清单36-6_ Agent 定义文件.sh",
     "source": "code/ai-tutoring-multi-agent/.claude/agents/"
@@ -1978,7 +1658,7 @@
   {
     "title": "代码清单37-1: knowledge_graph.json",
     "lang": "json",
-    "chapter_file": "chapter-37.md",
+    "chapter_file": "chapter-037.md",
     "line": 13,
     "extracted_file": "src\\代码清单37-1_ knowledge_graph.json.json",
     "source": "code/ai-tutoring-multi-agent/knowledge_base/math/knowledge_graph.json"
@@ -1986,7 +1666,7 @@
   {
     "title": "代码清单37-2: 知识文档路径",
     "lang": "bash",
-    "chapter_file": "chapter-37.md",
+    "chapter_file": "chapter-037.md",
     "line": 133,
     "extracted_file": "src\\代码清单37-2_ 知识文档路径.sh",
     "source": "code/ai-tutoring-multi-agent/knowledge_base/math/"
@@ -1994,7 +1674,7 @@
   {
     "title": "代码清单37-3: recommend_next_kp 实现",
     "lang": "python",
-    "chapter_file": "chapter-37.md",
+    "chapter_file": "chapter-037.md",
     "line": 147,
     "extracted_file": "src\\代码清单37-3_ recommend_next_kp 实现.py",
     "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/recommend_kp.py"
@@ -2002,7 +1682,7 @@
   {
     "title": "代码清单37-4: StudentTracker 核心方法",
     "lang": "python",
-    "chapter_file": "chapter-37.md",
+    "chapter_file": "chapter-037.md",
     "line": 181,
     "extracted_file": "src\\代码清单37-4_ StudentTracker 核心方法.py",
     "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/student_tracker.py"
@@ -2010,7 +1690,7 @@
   {
     "title": "代码清单38-1: make_question 实现",
     "lang": "python",
-    "chapter_file": "chapter-38.md",
+    "chapter_file": "chapter-038.md",
     "line": 13,
     "extracted_file": "src\\代码清单38-1_ make_question 实现.py",
     "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/question_maker.py"
@@ -2018,7 +1698,7 @@
   {
     "title": "代码清单38-2: _parse_question 解析",
     "lang": "python",
-    "chapter_file": "chapter-38.md",
+    "chapter_file": "chapter-038.md",
     "line": 57,
     "extracted_file": "src\\代码清单38-2_ _parse_question 解析.py",
     "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/question_maker.py"
@@ -2026,7 +1706,7 @@
   {
     "title": "代码清单38-3: grade_answer 实现",
     "lang": "python",
-    "chapter_file": "chapter-38.md",
+    "chapter_file": "chapter-038.md",
     "line": 94,
     "extracted_file": "src\\代码清单38-3_ grade_answer 实现.py",
     "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/grader.py"
@@ -2034,7 +1714,7 @@
   {
     "title": "代码清单38-4: _parse_grade 解析",
     "lang": "python",
-    "chapter_file": "chapter-38.md",
+    "chapter_file": "chapter-038.md",
     "line": 138,
     "extracted_file": "src\\代码清单38-4_ _parse_grade 解析.py",
     "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/grader.py"
@@ -2042,7 +1722,7 @@
   {
     "title": "代码清单38-5: StudentTracker 实现",
     "lang": "python",
-    "chapter_file": "chapter-38.md",
+    "chapter_file": "chapter-038.md",
     "line": 167,
     "extracted_file": "src\\代码清单38-5_ StudentTracker 实现.py",
     "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/student_tracker.py"
@@ -2050,7 +1730,7 @@
   {
     "title": "代码清单39-1: recommend_next_kp 实现",
     "lang": "python",
-    "chapter_file": "chapter-39.md",
+    "chapter_file": "chapter-039.md",
     "line": 13,
     "extracted_file": "src\\代码清单39-1_ recommend_next_kp 实现.py",
     "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/recommend_kp.py"
@@ -2058,7 +1738,7 @@
   {
     "title": "代码清单39-2: _can_study 实现",
     "lang": "python",
-    "chapter_file": "chapter-39.md",
+    "chapter_file": "chapter-039.md",
     "line": 49,
     "extracted_file": "src\\代码清单39-2_ _can_study 实现.py",
     "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/recommend_kp.py"
@@ -2066,7 +1746,7 @@
   {
     "title": "代码清单39-3: _get_prerequisites 实现",
     "lang": "python",
-    "chapter_file": "chapter-39.md",
+    "chapter_file": "chapter-039.md",
     "line": 63,
     "extracted_file": "src\\代码清单39-3_ _get_prerequisites 实现.py",
     "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/recommend_kp.py"
@@ -2074,7 +1754,7 @@
   {
     "title": "代码清单39-4: StudentTracker 核心方法",
     "lang": "python",
-    "chapter_file": "chapter-39.md",
+    "chapter_file": "chapter-039.md",
     "line": 93,
     "extracted_file": "src\\代码清单39-4_ StudentTracker 核心方法.py",
     "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/student_tracker.py"
@@ -2082,7 +1762,7 @@
   {
     "title": "代码清单39-1: 学生追踪数据结构",
     "lang": "json",
-    "chapter_file": "chapter-39.md",
+    "chapter_file": "chapter-039.md",
     "line": 125,
     "extracted_file": "src\\代码清单39-1_ 学生追踪数据结构.json",
     "source": null
@@ -2090,7 +1770,7 @@
   {
     "title": "代码清单40-1: socratic_tutor 实现",
     "lang": "python",
-    "chapter_file": "chapter-40.md",
+    "chapter_file": "chapter-040.md",
     "line": 13,
     "extracted_file": "src\\代码清单40-1_ socratic_tutor 实现.py",
     "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/socratic_tutor.py"
@@ -2098,7 +1778,7 @@
   {
     "title": "代码清单40-2: SharedMemory 上下文方法",
     "lang": "python",
-    "chapter_file": "chapter-40.md",
+    "chapter_file": "chapter-040.md",
     "line": 72,
     "extracted_file": "src\\代码清单40-2_ SharedMemory 上下文方法.py",
     "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/shared_memory.py"
@@ -2106,7 +1786,7 @@
   {
     "title": "代码清单40-3: 对话上下文压缩（外部实现）",
     "lang": "python",
-    "chapter_file": "chapter-40.md",
+    "chapter_file": "chapter-040.md",
     "line": 123,
     "extracted_file": "src\\代码清单40-3_ 对话上下文压缩（外部实现）.py",
     "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/"
@@ -2114,7 +1794,7 @@
   {
     "title": "代码清单41-1: FakeClient 实现",
     "lang": "python",
-    "chapter_file": "chapter-41.md",
+    "chapter_file": "chapter-041.md",
     "line": 13,
     "extracted_file": "src\\代码清单41-1_ FakeClient 实现.py",
     "source": "code/ai-tutoring-multi-agent/tests/test_agents.py"
@@ -2122,7 +1802,7 @@
   {
     "title": "代码清单41-2: planner 测试",
     "lang": "python",
-    "chapter_file": "chapter-41.md",
+    "chapter_file": "chapter-041.md",
     "line": 41,
     "extracted_file": "src\\代码清单41-2_ planner 测试.py",
     "source": "code/ai-tutoring-multi-agent/tests/test_agents.py"
@@ -2130,7 +1810,7 @@
   {
     "title": "代码清单41-3: tutor 测试",
     "lang": "python",
-    "chapter_file": "chapter-41.md",
+    "chapter_file": "chapter-041.md",
     "line": 63,
     "extracted_file": "src\\代码清单41-3_ tutor 测试.py",
     "source": "code/ai-tutoring-multi-agent/tests/test_agents.py"
@@ -2138,7 +1818,7 @@
   {
     "title": "代码清单41-4: evaluator 测试",
     "lang": "python",
-    "chapter_file": "chapter-41.md",
+    "chapter_file": "chapter-041.md",
     "line": 81,
     "extracted_file": "src\\代码清单41-4_ evaluator 测试.py",
     "source": "code/ai-tutoring-multi-agent/tests/test_agents.py"
@@ -2146,7 +1826,7 @@
   {
     "title": "代码清单41-5: 端到端编排测试",
     "lang": "python",
-    "chapter_file": "chapter-41.md",
+    "chapter_file": "chapter-041.md",
     "line": 107,
     "extracted_file": "src\\代码清单41-5_ 端到端编排测试.py",
     "source": "code/ai-tutoring-multi-agent/tests/test_agents.py"
@@ -2154,7 +1834,7 @@
   {
     "title": "代码清单41-6: question_maker 测试",
     "lang": "python",
-    "chapter_file": "chapter-41.md",
+    "chapter_file": "chapter-041.md",
     "line": 144,
     "extracted_file": "src\\代码清单41-6_ question_maker 测试.py",
     "source": "code/ai-tutoring-multi-agent/tests/test_new_modules.py"
@@ -2162,7 +1842,7 @@
   {
     "title": "代码清单41-7: grader 测试",
     "lang": "python",
-    "chapter_file": "chapter-41.md",
+    "chapter_file": "chapter-041.md",
     "line": 165,
     "extracted_file": "src\\代码清单41-7_ grader 测试.py",
     "source": "code/ai-tutoring-multi-agent/tests/test_new_modules.py"
@@ -2170,7 +1850,7 @@
   {
     "title": "代码清单41-8: student_tracker 测试",
     "lang": "python",
-    "chapter_file": "chapter-41.md",
+    "chapter_file": "chapter-041.md",
     "line": 182,
     "extracted_file": "src\\代码清单41-8_ student_tracker 测试.py",
     "source": "code/ai-tutoring-multi-agent/tests/test_new_modules.py"
@@ -2178,7 +1858,7 @@
   {
     "title": "代码清单41-9: recommend_kp 测试",
     "lang": "python",
-    "chapter_file": "chapter-41.md",
+    "chapter_file": "chapter-041.md",
     "line": 203,
     "extracted_file": "src\\代码清单41-9_ recommend_kp 测试.py",
     "source": "code/ai-tutoring-multi-agent/tests/test_new_modules.py"
@@ -2186,7 +1866,7 @@
   {
     "title": "代码清单41-10: socratic_tutor 测试",
     "lang": "python",
-    "chapter_file": "chapter-41.md",
+    "chapter_file": "chapter-041.md",
     "line": 222,
     "extracted_file": "src\\代码清单41-10_ socratic_tutor 测试.py",
     "source": "code/ai-tutoring-multi-agent/tests/test_new_modules.py"
