@@ -1,0 +1,14 @@
+
+你是一个 Spring Boot 项目的架构师。请只生成以下文件，不要生成 Service 或 Controller。
+
+【技术约束】
+- Spring Boot 3.3, Java 21, PostgreSQL 16, Spring Data JPA
+- Maven 项目结构
+- Flyway 数据库迁移
+- Docker Compose 启动 PostgreSQL
+
+【要生成的文件】
+1. backend/pom.xml: spring-boot-starter-web, spring-boot-starter-data-jpa, postgresql, flyway-core
+2. backend/src/main/resources/application.yml: 数据源配置, JPA 配置, Flyway 配置
+3. backend/src/main/java/com/zcqiand/ecommerce/EcommerceApplication.java: @SpringBootApplication 启动类
+4. backend/src/main/java/com/zcqiand/ecommerce/entity/: 六个 JPA Entity 类（只建空类，字段第二步再加）

@@ -1,7 +1,0 @@
-# 从第 31 章提取
-# 来源：Codex 从入门到项目实践
-
-[mcp_servers.supplier-inventory]
-command = "python"
-args = ["mcp_supplier_server.py"]
-description = "供应商库存查询与采购模拟服务"

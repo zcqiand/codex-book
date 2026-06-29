@@ -1,0 +1,1 @@
+npx tsx ci_watcher.ts

@@ -1,0 +1,1 @@
+codex exec "生成一份英文版 CHANGELOG.md，基于最近20次提交" > CHANGELOG.md

@@ -1,0 +1,10 @@
+{
+  "student_id": "alice",
+  "knowledge_points": {
+    "deriv-def": {"mastery": 0.7, "wrong_count": 2, "last_practiced": "2026-06-27T10:30:00"},
+    "deriv-rules": {"mastery": 0.4, "wrong_count": 5, "last_practiced": "2026-06-27T11:00:00"}
+  },
+  "wrong_answers": [
+    {"kp_id": "deriv-rules", "question": "链式法则题...", "student_answer": "A", "correct": false, "timestamp": "..."}
+  ]
+}

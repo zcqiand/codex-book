@@ -1,0 +1,5 @@
+[security]
+sandbox = "read-only"
+
+[model]
+max_reasoning_effort = "medium"

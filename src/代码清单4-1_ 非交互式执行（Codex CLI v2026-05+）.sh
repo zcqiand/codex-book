@@ -1,0 +1,1 @@
+codex exec "重构 src/utils.ts，把重复的日期格式化逻辑提取为一个公共函数"

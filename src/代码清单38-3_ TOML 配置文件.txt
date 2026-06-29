@@ -1,0 +1,29 @@
+
+[plugin]
+name = "math-tutor"
+version = "1.0.0"
+description = "AI 学习辅导多智能体系统——覆盖出题/批改/辅导/路径规划"
+author = "codex-start-book"
+
+[skills]
+question-maker = ".codex/skills/question-maker.md"
+grader = ".codex/skills/grader.md"
+tutor = ".codex/skills/tutor.md"
+learning-report = ".codex/skills/learning-report.md"
+
+[agents]
+planner = ".codex/agents/planner.toml"
+question-maker = ".codex/agents/question-maker.toml"
+grader = ".codex/agents/grader.toml"
+tutor = ".codex/agents/tutor.toml"
+
+[automations]
+weekly-report = ".codex/automations/weekly-report.yaml"
+
+[knowledge_bases]
+math-junior = "knowledge/初中数学/"
+# 扩展学科时只需增加 knowledge_bases 条目
+
+[memory_templates]
+student-profile = "memory_templates/student_profile.json"
+wrong-answers = "memory_templates/wrong_answers.json"

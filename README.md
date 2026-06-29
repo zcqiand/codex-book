@@ -26,93 +26,115 @@
 
 ## 代码清单说明
 
-本目录包含从书籍章节中提取的 108 个代码示例文件，涵盖 30 个章节的核心知识点。
+本目录包含从书籍章节中提取的 **274 个**代码示例文件，涵盖第 2-41 章的核心知识点。
 
 ### 📊 代码统计
 
-- **总文件数**: 108 个
-- **总代码行数**: 2,600+ 行
-- **涉及章节**: 第 6-41 章
+- **总文件数**: 274 个
+- **涉及章节**: 第 2-41 章（全覆盖）
+- **两个完整案例**: 电商订单系统（卷四）+ AI 辅导多智能体（卷五）
 
 ### 📋 按编程语言分类
 
 | 语言       | 文件数 | 说明                        |
 | ---------- | ------ | --------------------------- |
-| TOML       | 42     | 配置文件（config.toml）     |
-| Python     | 41     | 后端脚本、SDK示例、数据处理 |
-| TypeScript | 14     | SDK 使用、类型定义          |
-| YAML       | 8      | CI/CD 配置、工作流          |
-| JSON       | 3      | 数据结构、API 响应          |
+| Bash/Shell | 102    | CLI 命令、安装脚本          |
+| Python     | 47     | 后端脚本、SDK 示例、数据处理 |
+| TOML       | 38     | 配置文件（config.toml）     |
+| Java       | 31     | 电商案例后端代码            |
+| TypeScript | 25     | SDK 使用、类型定义          |
+| YAML       | 12     | CI/CD 配置、工作流、Agent 定义 |
+| JSON       | 7      | 数据结构、API 响应          |
+| Markdown   | 4      | 文档示例、SKILL.md 模板     |
+| 其他       | 8      | text/plaintext/sql/jsonc    |
 
 ### 📂 章节覆盖
 
-- **第 6-9 章**: 核心概念（配置、规则、记忆、权限）
-- **第 10-19 章**: 扩展与集成（斜杠命令、Hooks、MCP、插件）
-- **第 20-27 章**: SDK 与自动化
-- **第 28-34 章**: 电商订单与库存管理系统案例
-- **第 35-41 章**: AI 学习辅导多智能体系统案例
-
-## 如何使用代码
-
-### 环境准备
-
-- **Node.js**: 18+（运行 TypeScript 代码）
-- **Python**: 3.10+（运行 Python 脚本）
-- **Codex CLI**: 最新版（配置文件示例）
+| 章节范围 | 内容主题                          |
+| -------- | -------------------------------- |
+| 第 2-5 章 | 环境安装与快速上手               |
+| 第 6-9 章 | 核心概念（配置、规则、记忆、权限）|
+| 第 10-19 章 | 扩展与集成（斜杠命令、Hooks、MCP、插件）|
+| 第 20-27 章 | SDK 与自动化                     |
+| 第 28-35 章 | **电商订单与库存管理系统案例**（Spring Boot + React）|
+| 第 36-41 章 | **AI 学习辅导多智能体系统案例**（Python Agent SDK）|
 
 ### 文件命名规范
 
 ```text
-chapter{章节号:02d}_{描述/类名/函数名}.{扩展名}
+代码清单{章节号}-{序号}_ {描述}.{扩展名}
 ```
 
 示例：
 
-- `chapter11_main.py` - 第11章的主要Python脚本
-- `chapter20_ReviewSchema.ts` - 第20章的TypeScript审查模式类
-- `chapter06_code000.toml` - 第6章的第1个配置文件
+- `代码清单06-8_ Codex config.toml 配置.txt` - 第 6 章第 8 个代码块，config.toml 配置
+- `代码清单20-1_ npm 全局安装 Codex CLI.sh` - 第 20 章安装脚本
+- `代码清单29-5_ User 类定义.py` - 第 29 章 Python 类
 
-### 运行示例
-
-**Python 代码**:
-
-```bash
-python src/chapter11_main.py
-```
-
-**TypeScript 代码**:
-
-```bash
-npm install
-node src/chapter20_*.ts
-```
-
-**配置文件**: 直接在相应工具中使用
-
-### 代码说明
-
-每个代码文件开头都包含来源注释：
+每个文件内的来源注释标明原始章节：
 
 ```python
-# 从第 11 章提取
-# 来源：Codex 从入门到项目实践
+# 摘自：output/xr-know-003/chapters/chapter-29.md
+# 书籍：Codex 从入门到项目实践
 ```
+
+## 完整案例仓库
+
+书中卷四、卷五的两个完整可运行项目托管在独立仓库中，代码清单中的片段均可在对应仓库中找到完整实现：
+
+### 🛒 电商订单与库存管理系统（卷四 · 第 28-35 章）
+
+> **仓库**：[https://github.com/zcqiand/ecommerce-oms](https://github.com/zcqiand/ecommerce-oms)
+>
+> **技术栈**：Spring Boot 3.3 + Java 21 LTS + PostgreSQL 16 + React 18 + Vite 5 + Docker Compose
+>
+> **内容**：需求分析、ER 图、数据库迁移、RESTful API、库存锁定/扣减/释放、审批流、多级审核、供应商管理、前端页面、CI/CD 端到端部署
+>
+> **运行**：
+> ```bash
+> cd code/ecommerce-oms
+> docker compose up -d
+> # 后端：http://localhost:8080
+> # 前端：http://localhost:3000
+> ```
+
+### 🎓 AI 学习辅导多智能体系统（卷五 · 第 36-41 章）
+
+> **仓库**：[https://github.com/zcqiand/ai-tutoring-multi-agent](https://github.com/zcqiand/ai-tutoring-multi-agent)
+>
+> **技术栈**：Python 3.10+ + Claude Agent SDK
+>
+> **内容**：三代理架构（Planner/Tutor/Evaluator）、知识库建模、出题与批改、自适应学习路径、辅导对话管理、端到端集成测试
+>
+> **运行**：
+> ```bash
+> cd code/ai-tutoring-multi-agent
+> pip install -e .
+> python run_demo.py
+> ```
+
+### 本书主仓库（代码片段索引）
+
+> **仓库**：[https://github.com/zcqiand/codex-book](https://github.com/zcqiand/codex-book)
+>
+> 本仓库（`codex-book`）为书中代码片段的索引库，按章组织，仅供查阅对照。两个完整案例的详细代码请参考上述对应仓库。
 
 ## 配套资源
 
-- **GitHub 仓库**: [https://github.com/zcqiand/codex-book](https://github.com/zcqiand/codex-book)
-- **勘误页面**: [https://github.com/zcqiand/codex-book/issues](https://github.com/zcqiand/codex-book/issues)
-- **读者交流**: 1282301776@qq.com
+- **书籍主仓库**：[https://github.com/zcqiand/codex-book](https://github.com/zcqiand/codex-book)
+- **勘误页面**：[https://github.com/zcqiand/codex-book/issues](https://github.com/zcqiand/codex-book/issues)
+- **读者交流**：1282301776@qq.com
+- **电子书籍网址**：[亚马逊](https://www.amazon.com/dp/B0H3781RB9)
 
 ## ⚠️ 注意事项
 
-1. **代码版本**: 代码基于 2026 年 5 月的 Codex 版本编写，API 可能有更新
-2. **依赖安装**: 某些代码可能需要额外依赖包（参见对应章节说明）
-3. **安全审查**: 生产环境使用前请审查代码，特别是涉及认证和权限的部分
-4. **环境差异**: 部分代码可能需要根据实际环境调整
+1. **代码版本**：代码基于 2026 年 5 月的 Codex 版本编写，API 可能有更新
+2. **依赖安装**：某些代码可能需要额外依赖包（参见对应章节说明）
+3. **安全审查**：生产环境使用前请审查代码，特别是涉及认证和权限的部分
+4. **环境差异**：部分代码可能需要根据实际环境调整
 
 ---
 
-**最后更新**: 2026年5月28日
-**书籍版本**: 1.0
-**代码来源**: [../chapters](../chapters/)
+**最后更新**：2026年6月27日
+**书籍版本**：1.0（案例完整对接版）
+**代码来源**：[../../output/xr-know-003/chapters](../../output/xr-know-003/chapters/)

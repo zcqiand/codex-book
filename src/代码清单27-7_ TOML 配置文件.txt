@@ -1,0 +1,5 @@
+[hooks]
+  [hooks.PostToolUse]
+    [hooks.PostToolUse.audit]
+    command = "/opt/codex-managed/hooks/audit.sh"
+    matcher = ".*"

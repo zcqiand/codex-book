@@ -1,5 +1,0 @@
-# 从第 19 章提取
-# 来源：Codex 从入门到项目实践
-# Worktree 隔离配置（Codex CLI v2026-05+）
-[agents]
-worktree_isolation = true

@@ -1,7 +1,0 @@
-# 从第 27 章提取
-# 来源：Codex 从入门到项目实践
-[security]
-sandbox = "read-only"
-
-[model]
-max_reasoning_effort = "medium"

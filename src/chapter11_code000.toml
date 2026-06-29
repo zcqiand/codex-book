@@ -1,5 +1,0 @@
-# 从第 11 章提取
-# 来源：Codex 从入门到项目实践
-# 在 ~/.codex/config.toml 中添加
-[features]
-codex_hooks = true

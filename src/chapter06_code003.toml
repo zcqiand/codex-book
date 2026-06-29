@@ -1,7 +1,0 @@
-# 从第 6 章提取
-# 来源：Codex 从入门到项目实践
-[model]
-name = "gpt-5.4"
-
-# 写法B：平铺键名（错误——Codex 不认识）
-model.name = "gpt-5.4"

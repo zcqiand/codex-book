@@ -1,0 +1,1 @@
+python -c "from codex_app_server import Codex; print('OK')"

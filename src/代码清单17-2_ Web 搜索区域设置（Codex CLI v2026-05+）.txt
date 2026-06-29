@@ -1,0 +1,2 @@
+[features.web_search]
+location = "cn"  # 搜索结果偏向该地区

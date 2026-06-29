@@ -1,4 +1,0 @@
-# 从第 17 章提取
-# 来源：Codex 从入门到项目实践
-[features.web_search]
-location = "cn"  # 搜索结果偏向该地区

@@ -1,0 +1,1 @@
+python -c "from codex_runner import run_sync; print(run_sync('列出当前目录的文件', 'gpt-5.4'))"

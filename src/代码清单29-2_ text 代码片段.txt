@@ -1,0 +1,21 @@
+
+ecommerce-oms/
+├── backend/
+│   ├── src/
+│   │   └── main/
+│   │       ├── java/
+│   │       │   └── com/zcqiand/ecommerce/
+│   │       │       ├── EcommerceApplication.java  # Spring Boot 启动类
+│   │       │       ├── entity/                    # JPA 实体（6实体）
+│   │       │       ├── repository/                # Spring Data JPA Repository
+│   │       │       ├── service/                   # 业务逻辑层
+│   │       │       └── controller/                # REST 控制器
+│   │       └── resources/
+│   │           ├── application.yml               # Spring Boot 配置
+│   │           └── db/migration/                 # Flyway 迁移脚本
+│   │               ├── V1__init_schema.sql
+│   │               └── V2__seed_data.sql
+│   └── pom.xml                                    # Maven 依赖配置
+├── frontend/                                      # React 前端（可选）
+├── .github/workflows/ci.yml                       # CI 配置
+└── docker-compose.yml                             # PostgreSQL + 应用容器

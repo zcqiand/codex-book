@@ -1,0 +1,7 @@
+my-skill/
+├── SKILL.md          # 必须——指令与元数据
+├── scripts/          # 可选——可执行脚本
+├── references/       # 可选——参考文档
+├── assets/           # 可选——模板和资源
+└── agents/
+    └── openai.yaml   # 可选——外观与依赖声明

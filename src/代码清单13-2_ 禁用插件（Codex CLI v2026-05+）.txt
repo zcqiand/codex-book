@@ -1,0 +1,2 @@
+[plugins."gmail@openai-curated"]
+enabled = false

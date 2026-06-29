@@ -1,4 +1,0 @@
-# 从第 12 章提取
-# 来源：Codex 从入门到项目实践
-mcp_oauth_callback_port = 5555              # 固定回调端口（不设则自动分配）
-mcp_oauth_callback_url = "https://devbox.example.internal/callback"

@@ -1,5 +1,0 @@
-# 从第 12 章提取
-# 来源：Codex 从入门到项目实践
-[mcp_servers.context7]
-command = "npx"
-args = ["-y", "@upstash/context7-mcp"]

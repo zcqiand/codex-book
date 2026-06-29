@@ -1,0 +1,5 @@
+
+# /review src/main/java/com/zcqiand/ecommerce/controller/OrderController.java
+#       src/main/java/com/zcqiand/ecommerce/service/OrderService.java
+#       src/main/java/com/zcqiand/ecommerce/entity/OrderStatus.java
+# 关注: 订单创建的事务边界、状态转换完整性、库存锁定是否有竞态条件

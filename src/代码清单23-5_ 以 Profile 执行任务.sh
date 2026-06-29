@@ -1,0 +1,1 @@
+codex exec --cd ./services/payment "审查当前目录的错误处理逻辑"

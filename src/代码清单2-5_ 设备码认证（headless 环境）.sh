@@ -1,0 +1,1 @@
+codex login --device-auth
