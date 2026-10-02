@@ -1,0 +1,2 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/anthropics/codex/main/config-schema.json
+# 在 VS Code 中编辑时，Ctrl+Space 获得键名补全和文档提示

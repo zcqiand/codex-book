@@ -1,0 +1,11 @@
+# 项目级 .codex/config.toml — 行为层管 Codex 在本项目里怎么动手，产品口径本身由 AGENTS.md 管
+
+[sandbox]
+mode = "workspace-write"    # 创建期要生成页面与接口文件，允许写工作区；工作区之外的写操作仍被沙箱拦住
+
+[approval]
+default_mode = "on-request"    # 令牌、凭据、跨租户数据相关改动提交前先过人审，机器不替人拍板
+
+[profiles.saas-fence]
+sandbox.mode = "workspace-write"    # 段名自定，固化本卷围栏：整卷按这组档位开工，围栏先于功能
+approval.default_mode = "on-request"    # 与顶层同值，换任何入口启动都不会悄悄放宽围栏

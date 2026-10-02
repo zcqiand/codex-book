@@ -1,0 +1,32 @@
+# 教学直写，非案例仓内实体文件——CI 把关是发布节奏的配置动作，不属于冻结版范围
+name: pre-merge-checks
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  pre-merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 配置 Node 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # 按 lockfile 原样安装依赖，保证每次检查跑在同一个环境里
+      - name: 安装依赖
+        run: npm ci
+
+      - name: 类型检查
+        run: npm run typecheck
+
+      # build 前的 prebuild 钩子会自动执行 gen:shared 再生成 API 客户端，无需单列一步
+      - name: 代码检查＋构建
+        run: |
+          npm run lint
+          npm run build

@@ -1,0 +1,12 @@
+# ~/.codex/config.toml（用户级）
+[model]
+name = "gpt-5.3-codex"
+reasoning_effort = "medium"
+
+# <project>/.codex/config.toml（项目级）
+[model]
+reasoning_effort = "high"
+
+# Profile: [profiles.crunch]
+[profiles.crunch]
+model.name = "gpt-5.4"

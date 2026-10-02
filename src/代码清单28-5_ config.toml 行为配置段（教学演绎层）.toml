@@ -1,0 +1,7 @@
+# 项目级 .codex/config.toml — 行为层管 Codex 在本项目里怎么动手，产品口径本身由 AGENTS.md 管
+
+[sandbox]
+mode = "workspace-write"  # 创建期要生成页面与接口文件，必须允许写工作区；工作区之外的写操作仍被沙箱拦住
+
+[model]
+reasoning_effort = "medium"  # 默认推理力度：口径起草够用，再高一档只增加耗时与成本，不改变产出质量

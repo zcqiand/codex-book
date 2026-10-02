@@ -1,0 +1,30 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 .codex/hooks/capability_write_gate.py",
+            "timeout": 10,
+            "statusMessage": "写入前检查：能力域禁区逐条核对"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 .codex/hooks/capability_write_review.py",
+            "timeout": 10,
+            "statusMessage": "写入后复核：类型出处与用语复查"
+          }
+        ]
+      }
+    ]
+  }
+}

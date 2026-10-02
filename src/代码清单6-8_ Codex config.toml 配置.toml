@@ -1,0 +1,6 @@
+# 写法A：嵌套表（正确）
+[model]
+name = "gpt-5.4"
+
+# 写法B：平铺键名（错误——Codex 不认识）
+model.name = "gpt-5.4"

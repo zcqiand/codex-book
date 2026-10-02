@@ -84,7 +84,7 @@
     "lang": "toml",
     "chapter_file": "chapter-006.md",
     "line": 64,
-    "extracted_file": "src\\代码清单6-1_ 定义两个 Profile（Codex CLI v2026-05+）.txt",
+    "extracted_file": "src\\代码清单6-1_ 定义两个 Profile（Codex CLI v2026-05+）.toml",
     "source": null
   },
   {
@@ -100,7 +100,7 @@
     "lang": "toml",
     "chapter_file": "chapter-006.md",
     "line": 123,
-    "extracted_file": "src\\代码清单6-3_ 三层配置合并示例（Codex CLI v2026-05+）.txt",
+    "extracted_file": "src\\代码清单6-3_ 三层配置合并示例（Codex CLI v2026-05+）.toml",
     "source": null
   },
   {
@@ -124,7 +124,7 @@
     "lang": "toml",
     "chapter_file": "chapter-006.md",
     "line": 173,
-    "extracted_file": "src\\代码清单6-6_ 在 config.toml 中启用 Schema 自动补全（Codex CLI v2026-05+）.txt",
+    "extracted_file": "src\\代码清单6-6_ 在 config.toml 中启用 Schema 自动补全（Codex CLI v2026-05+）.toml",
     "source": null
   },
   {
@@ -136,11 +136,11 @@
     "source": null
   },
   {
-    "title": "代码清单06-8: Codex config.toml 配置",
+    "title": "代码清单6-8: Codex config.toml 配置",
     "lang": "toml",
     "chapter_file": "chapter-006.md",
     "line": 208,
-    "extracted_file": "src\\代码清单06-8_ Codex config.toml 配置.txt",
+    "extracted_file": "src\\代码清单6-8_ Codex config.toml 配置.toml",
     "source": null
   },
   {
@@ -156,7 +156,7 @@
     "lang": "toml",
     "chapter_file": "chapter-007.md",
     "line": 88,
-    "extracted_file": "src\\代码清单7-2_ 在 config.toml 中配置 Rules（Codex CLI v2026-05+）.txt",
+    "extracted_file": "src\\代码清单7-2_ 在 config.toml 中配置 Rules（Codex CLI v2026-05+）.toml",
     "source": null
   },
   {
@@ -164,7 +164,7 @@
     "lang": "toml",
     "chapter_file": "chapter-007.md",
     "line": 135,
-    "extracted_file": "src\\代码清单7-3_ 使用正则表达式的 Rules 示例（Codex CLI v2026-05+）.txt",
+    "extracted_file": "src\\代码清单7-3_ 使用正则表达式的 Rules 示例（Codex CLI v2026-05+）.toml",
     "source": null
   },
   {
@@ -180,7 +180,7 @@
     "lang": "toml",
     "chapter_file": "chapter-008.md",
     "line": 84,
-    "extracted_file": "src\\代码清单8-2_ 记忆系统配置（Codex CLI v2026-05+）.txt",
+    "extracted_file": "src\\代码清单8-2_ 记忆系统配置（Codex CLI v2026-05+）.toml",
     "source": null
   },
   {
@@ -212,7 +212,7 @@
     "lang": "toml",
     "chapter_file": "chapter-009.md",
     "line": 106,
-    "extracted_file": "src\\代码清单9-4_ 在 config.toml 中配置审批策略（Codex CLI v2026-05+）.txt",
+    "extracted_file": "src\\代码清单9-4_ 在 config.toml 中配置审批策略（Codex CLI v2026-05+）.toml",
     "source": null
   },
   {
@@ -220,15 +220,7 @@
     "lang": "toml",
     "chapter_file": "chapter-009.md",
     "line": 154,
-    "extracted_file": "src\\代码清单9-5_ 网络安全配置（Codex CLI v2026-05+）.txt",
-    "source": null
-  },
-  {
-    "title": "代码清单10-1: text 代码片段",
-    "lang": "text",
-    "chapter_file": "chapter-010.md",
-    "line": 176,
-    "extracted_file": "src\\代码清单10-1_ text 代码片段.txt",
+    "extracted_file": "src\\代码清单9-5_ 网络安全配置（Codex CLI v2026-05+）.toml",
     "source": null
   },
   {
@@ -240,11 +232,11 @@
     "source": null
   },
   {
-    "title": "代码清单10-1: 禁用特定 Skill（Codex CLI v2026-05+）",
+    "title": "代码清单10-3: 禁用特定 Skill（Codex CLI v2026-05+）",
     "lang": "toml",
     "chapter_file": "chapter-010.md",
     "line": 261,
-    "extracted_file": "src\\代码清单10-1_ 禁用特定 Skill（Codex CLI v2026-05+）.txt",
+    "extracted_file": "src\\代码清单10-3_ 禁用特定 Skill（Codex CLI v2026-05+）.toml",
     "source": null
   },
   {
@@ -256,51 +248,51 @@
     "source": null
   },
   {
-    "title": "代码清单11-2: JSON 数据结构",
+    "title": "代码清单11-2: Hook 决策 JSON 示例",
     "lang": "json",
     "chapter_file": "chapter-011.md",
     "line": 122,
-    "extracted_file": "src\\代码清单11-2_ JSON 数据结构.json",
+    "extracted_file": "src\\代码清单11-2_ Hook 决策 JSON 示例.json",
     "source": null
   },
   {
-    "title": "代码清单11-1: 开启 Hooks（Codex CLI v2026-05+）",
+    "title": "代码清单11-3: 开启 Hooks（Codex CLI v2026-05+）",
     "lang": "toml",
     "chapter_file": "chapter-011.md",
-    "line": 152,
-    "extracted_file": "src\\代码清单11-1_ 开启 Hooks（Codex CLI v2026-05+）.txt",
+    "line": 154,
+    "extracted_file": "src\\代码清单11-3_ 开启 Hooks（Codex CLI v2026-05+）.toml",
     "source": null
   },
   {
-    "title": "代码清单11-2: 安全拦截 Hook 脚本（Codex CLI v2026-05+）",
+    "title": "代码清单11-4: 安全拦截 Hook 脚本（Codex CLI v2026-05+）",
     "lang": "python",
     "chapter_file": "chapter-011.md",
-    "line": 160,
-    "extracted_file": "src\\代码清单11-2_ 安全拦截 Hook 脚本（Codex CLI v2026-05+）.py",
+    "line": 162,
+    "extracted_file": "src\\代码清单11-4_ 安全拦截 Hook 脚本（Codex CLI v2026-05+）.py",
     "source": null
   },
   {
-    "title": "代码清单11-3: hooks.json 注册安全拦截 Hook — 保存为 ~/.codex/hooks.json",
+    "title": "代码清单11-5: hooks.json 注册安全拦截 Hook — 保存为 ~/.codex/hooks.json",
     "lang": "jsonc",
     "chapter_file": "chapter-011.md",
-    "line": 199,
-    "extracted_file": "src\\代码清单11-3_ hooks.json 注册安全拦截 Hook — 保存为 ~_.codex_hooks.json.txt",
+    "line": 201,
+    "extracted_file": "src\\代码清单11-5_ hooks.json 注册安全拦截 Hook — 保存为 ~_.codex_hooks.json.jsonc",
     "source": null
   },
   {
-    "title": "代码清单11-4: config.toml 内联 Hook 配置（Codex CLI v2026-05+）",
+    "title": "代码清单11-6: config.toml 内联 Hook 配置（Codex CLI v2026-05+）",
     "lang": "toml",
     "chapter_file": "chapter-011.md",
-    "line": 221,
-    "extracted_file": "src\\代码清单11-4_ config.toml 内联 Hook 配置（Codex CLI v2026-05+）.txt",
+    "line": 223,
+    "extracted_file": "src\\代码清单11-6_ config.toml 内联 Hook 配置（Codex CLI v2026-05+）.toml",
     "source": null
   },
   {
-    "title": "代码清单11-5: Managed Hooks 企业配置（Codex CLI v2026-05+）",
+    "title": "代码清单11-7: Managed Hooks 企业配置（Codex CLI v2026-05+）",
     "lang": "toml",
     "chapter_file": "chapter-011.md",
-    "line": 267,
-    "extracted_file": "src\\代码清单11-5_ Managed Hooks 企业配置（Codex CLI v2026-05+）.txt",
+    "line": 269,
+    "extracted_file": "src\\代码清单11-7_ Managed Hooks 企业配置（Codex CLI v2026-05+）.toml",
     "source": null
   },
   {
@@ -308,7 +300,7 @@
     "lang": "toml",
     "chapter_file": "chapter-012.md",
     "line": 54,
-    "extracted_file": "src\\代码清单12-1_ 最小 STDIO MCP Server 配置（Codex CLI v2026-05+）.txt",
+    "extracted_file": "src\\代码清单12-1_ 最小 STDIO MCP Server 配置（Codex CLI v2026-05+）.toml",
     "source": null
   },
   {
@@ -316,7 +308,7 @@
     "lang": "toml",
     "chapter_file": "chapter-012.md",
     "line": 84,
-    "extracted_file": "src\\代码清单12-2_ env_vars 进阶用法（Codex CLI v2026-05+）.txt",
+    "extracted_file": "src\\代码清单12-2_ env_vars 进阶用法（Codex CLI v2026-05+）.toml",
     "source": null
   },
   {
@@ -324,7 +316,7 @@
     "lang": "toml",
     "chapter_file": "chapter-012.md",
     "line": 97,
-    "extracted_file": "src\\代码清单12-3_ Playwright MCP Server 配置（Codex CLI v2026-05+）.txt",
+    "extracted_file": "src\\代码清单12-3_ Playwright MCP Server 配置（Codex CLI v2026-05+）.toml",
     "source": null
   },
   {
@@ -332,7 +324,7 @@
     "lang": "toml",
     "chapter_file": "chapter-012.md",
     "line": 145,
-    "extracted_file": "src\\代码清单12-4_ Figma MCP HTTP 配置（Codex CLI v2026-05+）.txt",
+    "extracted_file": "src\\代码清单12-4_ Figma MCP HTTP 配置（Codex CLI v2026-05+）.toml",
     "source": null
   },
   {
@@ -348,7 +340,7 @@
     "lang": "toml",
     "chapter_file": "chapter-012.md",
     "line": 160,
-    "extracted_file": "src\\代码清单12-6_ OAuth 回调配置（Codex CLI v2026-05+）.txt",
+    "extracted_file": "src\\代码清单12-6_ OAuth 回调配置（Codex CLI v2026-05+）.toml",
     "source": null
   },
   {
@@ -356,7 +348,7 @@
     "lang": "toml",
     "chapter_file": "chapter-012.md",
     "line": 187,
-    "extracted_file": "src\\代码清单12-7_ GitHub MCP HTTP 配置（Codex CLI v2026-05+）.txt",
+    "extracted_file": "src\\代码清单12-7_ GitHub MCP HTTP 配置（Codex CLI v2026-05+）.toml",
     "source": null
   },
   {
@@ -372,7 +364,7 @@
     "lang": "toml",
     "chapter_file": "chapter-013.md",
     "line": 107,
-    "extracted_file": "src\\代码清单13-2_ 禁用插件（Codex CLI v2026-05+）.txt",
+    "extracted_file": "src\\代码清单13-2_ 禁用插件（Codex CLI v2026-05+）.toml",
     "source": null
   },
   {
@@ -396,7 +388,7 @@
     "lang": "toml",
     "chapter_file": "chapter-014.md",
     "line": 90,
-    "extracted_file": "src\\代码清单14-3_ 禁用特定 Skill（Codex CLI v2026-05+）.txt",
+    "extracted_file": "src\\代码清单14-3_ 禁用特定 Skill（Codex CLI v2026-05+）.toml",
     "source": null
   },
   {
@@ -404,7 +396,7 @@
     "lang": "toml",
     "chapter_file": "chapter-014.md",
     "line": 153,
-    "extracted_file": "src\\代码清单14-4_ 子代理全局配置（Codex CLI v2026-05+）.txt",
+    "extracted_file": "src\\代码清单14-4_ 子代理全局配置（Codex CLI v2026-05+）.toml",
     "source": null
   },
   {
@@ -412,31 +404,31 @@
     "lang": "toml",
     "chapter_file": "chapter-014.md",
     "line": 170,
-    "extracted_file": "src\\代码清单14-5_ TOML 配置文件.txt",
+    "extracted_file": "src\\代码清单14-5_ TOML 配置文件.toml",
     "source": null
   },
   {
-    "title": "代码清单14-5: 自定义 PR 审查代理 —— .codex/agents/reviewer.toml",
+    "title": "代码清单14-6: 自定义 PR 审查代理 —— .codex/agents/reviewer.toml",
     "lang": "toml",
     "chapter_file": "chapter-014.md",
     "line": 192,
-    "extracted_file": "src\\代码清单14-5_ 自定义 PR 审查代理 —— .codex_agents_reviewer.toml.txt",
+    "extracted_file": "src\\代码清单14-6_ 自定义 PR 审查代理 —— .codex_agents_reviewer.toml.toml",
     "source": null
   },
   {
-    "title": "代码清单14-6: 探索代理定义 —— .codex/agents/pr-explorer.toml",
+    "title": "代码清单14-7: 探索代理定义 —— .codex/agents/pr-explorer.toml",
     "lang": "toml",
     "chapter_file": "chapter-014.md",
     "line": 236,
-    "extracted_file": "src\\代码清单14-6_ 探索代理定义 —— .codex_agents_pr-explorer.toml.txt",
+    "extracted_file": "src\\代码清单14-7_ 探索代理定义 —— .codex_agents_pr-explorer.toml.toml",
     "source": null
   },
   {
-    "title": "代码清单14-7: 文档验证代理定义 —— .codex/agents/docs-researcher.toml",
+    "title": "代码清单14-8: 文档验证代理定义 —— .codex/agents/docs-researcher.toml",
     "lang": "toml",
     "chapter_file": "chapter-014.md",
     "line": 251,
-    "extracted_file": "src\\代码清单14-7_ 文档验证代理定义 —— .codex_agents_docs-researcher.toml.txt",
+    "extracted_file": "src\\代码清单14-8_ 文档验证代理定义 —— .codex_agents_docs-researcher.toml.toml",
     "source": null
   },
   {
@@ -444,7 +436,7 @@
     "lang": "toml",
     "chapter_file": "chapter-015.md",
     "line": 113,
-    "extracted_file": "src\\代码清单15-1_ 工具输出上限配置（Codex CLI v2026-05+）.txt",
+    "extracted_file": "src\\代码清单15-1_ 工具输出上限配置（Codex CLI v2026-05+）.toml",
     "source": null
   },
   {
@@ -452,7 +444,7 @@
     "lang": "toml",
     "chapter_file": "chapter-015.md",
     "line": 168,
-    "extracted_file": "src\\代码清单15-2_ 全局禁用工具（Codex CLI v2026-05+）.txt",
+    "extracted_file": "src\\代码清单15-2_ 全局禁用工具（Codex CLI v2026-05+）.toml",
     "source": null
   },
   {
@@ -476,7 +468,7 @@
     "lang": "toml",
     "chapter_file": "chapter-017.md",
     "line": 97,
-    "extracted_file": "src\\代码清单17-1_ Web 搜索模式配置（Codex CLI v2026-05+）.txt",
+    "extracted_file": "src\\代码清单17-1_ Web 搜索模式配置（Codex CLI v2026-05+）.toml",
     "source": null
   },
   {
@@ -484,7 +476,7 @@
     "lang": "toml",
     "chapter_file": "chapter-017.md",
     "line": 146,
-    "extracted_file": "src\\代码清单17-2_ Web 搜索区域设置（Codex CLI v2026-05+）.txt",
+    "extracted_file": "src\\代码清单17-2_ Web 搜索区域设置（Codex CLI v2026-05+）.toml",
     "source": null
   },
   {
@@ -508,7 +500,7 @@
     "lang": "toml",
     "chapter_file": "chapter-019.md",
     "line": 122,
-    "extracted_file": "src\\代码清单19-2_ TOML 配置文件.txt",
+    "extracted_file": "src\\代码清单19-2_ TOML 配置文件.toml",
     "source": null
   },
   {
@@ -516,15 +508,15 @@
     "lang": "toml",
     "chapter_file": "chapter-019.md",
     "line": 152,
-    "extracted_file": "src\\代码清单19-3_ TOML 配置文件.txt",
+    "extracted_file": "src\\代码清单19-3_ TOML 配置文件.toml",
     "source": null
   },
   {
-    "title": "代码清单20-1: npm 全局安装 Codex CLI",
+    "title": "代码清单20-1: 安装 Codex TypeScript SDK（项目本地）",
     "lang": "bash",
     "chapter_file": "chapter-020.md",
     "line": 71,
-    "extracted_file": "src\\代码清单20-1_ npm 全局安装 Codex CLI.sh",
+    "extracted_file": "src\\代码清单20-1_ 安装 Codex TypeScript SDK（项目本地）.sh",
     "source": null
   },
   {
@@ -584,11 +576,11 @@
     "source": null
   },
   {
-    "title": "代码清单20-9: npm 全局安装 Codex CLI",
+    "title": "代码清单20-9: 初始化项目并安装 Codex TypeScript SDK",
     "lang": "bash",
     "chapter_file": "chapter-020.md",
     "line": 246,
-    "extracted_file": "src\\代码清单20-9_ npm 全局安装 Codex CLI.sh",
+    "extracted_file": "src\\代码清单20-9_ 初始化项目并安装 Codex TypeScript SDK.sh",
     "source": null
   },
   {
@@ -940,7 +932,7 @@
     "lang": "toml",
     "chapter_file": "chapter-027.md",
     "line": 19,
-    "extracted_file": "src\\代码清单27-1_ Codex config.toml 配置.txt",
+    "extracted_file": "src\\代码清单27-1_ Codex config.toml 配置.toml",
     "source": null
   },
   {
@@ -948,7 +940,7 @@
     "lang": "toml",
     "chapter_file": "chapter-027.md",
     "line": 91,
-    "extracted_file": "src\\代码清单27-2_ TOML 配置文件.txt",
+    "extracted_file": "src\\代码清单27-2_ TOML 配置文件.toml",
     "source": null
   },
   {
@@ -956,7 +948,7 @@
     "lang": "toml",
     "chapter_file": "chapter-027.md",
     "line": 163,
-    "extracted_file": "src\\代码清单27-3_ TOML 配置文件.txt",
+    "extracted_file": "src\\代码清单27-3_ TOML 配置文件.toml",
     "source": null
   },
   {
@@ -964,7 +956,7 @@
     "lang": "toml",
     "chapter_file": "chapter-027.md",
     "line": 228,
-    "extracted_file": "src\\代码清单27-4_ Codex config.toml 配置.txt",
+    "extracted_file": "src\\代码清单27-4_ Codex config.toml 配置.toml",
     "source": null
   },
   {
@@ -988,7 +980,7 @@
     "lang": "toml",
     "chapter_file": "chapter-027.md",
     "line": 260,
-    "extracted_file": "src\\代码清单27-7_ TOML 配置文件.txt",
+    "extracted_file": "src\\代码清单27-7_ TOML 配置文件.toml",
     "source": null
   },
   {
@@ -1000,875 +992,419 @@
     "source": null
   },
   {
-    "title": "代码清单28-1: 需求分析 Prompt 模板",
-    "lang": "text",
+    "title": "代码清单28-1: 产品定位说明（教学演绎层）",
+    "lang": "markdown",
     "chapter_file": "chapter-028.md",
-    "line": 153,
-    "extracted_file": "src\\代码清单28-1_ 需求分析 Prompt 模板.txt",
+    "line": 28,
+    "extracted_file": "src\\代码清单28-1_ 产品定位说明（教学演绎层）.md",
     "source": null
   },
   {
-    "title": "代码清单28-2: 验证 Java 和 Maven 环境",
-    "lang": "bash",
+    "title": "代码清单28-2: 范围圈定判据一：控制台骨架渲染（冻结版摘录）",
+    "lang": "tsx",
     "chapter_file": "chapter-028.md",
-    "line": 305,
-    "extracted_file": "src\\代码清单28-2_ 验证 Java 和 Maven 环境.sh",
-    "source": null
+    "line": 72,
+    "extracted_file": "src\\代码清单28-2_ 范围圈定判据一：控制台骨架渲染（冻结版摘录）.tsx",
+    "source": "code/lab-management-system-nextjs/src/app/(console)/layout.tsx"
   },
   {
-    "title": "代码清单29-1: application.yml 配置",
-    "lang": "yaml",
-    "chapter_file": "chapter-029.md",
-    "line": 244,
-    "extracted_file": "src\\代码清单29-1_ application.yml 配置.yml",
-    "source": "code/ecommerce-oms/backend/src/main/resources/application.yml"
-  },
-  {
-    "title": "代码清单29-2: User.java",
-    "lang": "java",
-    "chapter_file": "chapter-029.md",
-    "line": 339,
-    "extracted_file": "src\\代码清单29-2_ User.java.java",
-    "source": "code/ecommerce-oms/backend/src/main/java/com/zcqiand/ecommerce/entity/User.java"
-  },
-  {
-    "title": "代码清单29-3: OrderStatus.java",
-    "lang": "java",
-    "chapter_file": "chapter-029.md",
-    "line": 380,
-    "extracted_file": "src\\代码清单29-3_ OrderStatus.java.java",
-    "source": "code/ecommerce-oms/backend/src/main/java/com/zcqiand/ecommerce/entity/OrderStatus.java"
-  },
-  {
-    "title": "代码清单29-4: Product.java",
-    "lang": "java",
-    "chapter_file": "chapter-029.md",
-    "line": 396,
-    "extracted_file": "src\\代码清单29-4_ Product.java.java",
-    "source": "code/ecommerce-oms/backend/src/main/java/com/zcqiand/ecommerce/entity/Product.java"
-  },
-  {
-    "title": "代码清单29-5: Inventory.java",
-    "lang": "java",
-    "chapter_file": "chapter-029.md",
-    "line": 439,
-    "extracted_file": "src\\代码清单29-5_ Inventory.java.java",
-    "source": "code/ecommerce-oms/backend/src/main/java/com/zcqiand/ecommerce/entity/Inventory.java"
-  },
-  {
-    "title": "代码清单29-6: Order.java",
-    "lang": "java",
-    "chapter_file": "chapter-029.md",
-    "line": 477,
-    "extracted_file": "src\\代码清单29-6_ Order.java.java",
-    "source": "code/ecommerce-oms/backend/src/main/java/com/zcqiand/ecommerce/entity/Order.java"
-  },
-  {
-    "title": "代码清单29-7: OrderItem.java",
-    "lang": "java",
-    "chapter_file": "chapter-029.md",
-    "line": 540,
-    "extracted_file": "src\\代码清单29-7_ OrderItem.java.java",
-    "source": "code/ecommerce-oms/backend/src/main/java/com/zcqiand/ecommerce/entity/OrderItem.java"
-  },
-  {
-    "title": "代码清单29-8: Supplier.java",
-    "lang": "java",
-    "chapter_file": "chapter-029.md",
-    "line": 576,
-    "extracted_file": "src\\代码清单29-8_ Supplier.java.java",
-    "source": "code/ecommerce-oms/backend/src/main/java/com/zcqiand/ecommerce/entity/Supplier.java"
-  },
-  {
-    "title": "代码清单29-9: V1__init_schema.sql",
-    "lang": "sql",
-    "chapter_file": "chapter-029.md",
-    "line": 651,
-    "extracted_file": "src\\代码清单29-9_ V1__init_schema.sql.sql",
-    "source": "code/ecommerce-oms/backend/src/main/resources/db/migration/V1__init_schema.sql"
-  },
-  {
-    "title": "代码清单29-10: 启动 PostgreSQL",
-    "lang": "bash",
-    "chapter_file": "chapter-029.md",
-    "line": 745,
-    "extracted_file": "src\\代码清单29-10_ 启动 PostgreSQL.sh",
-    "source": "code/ecommerce-oms/docker-compose.yml"
-  },
-  {
-    "title": "代码清单29-11: 执行 Flyway 迁移",
-    "lang": "bash",
-    "chapter_file": "chapter-029.md",
-    "line": 756,
-    "extracted_file": "src\\代码清单29-11_ 执行 Flyway 迁移.sh",
-    "source": "code/ecommerce-oms/backend/pom.xml"
-  },
-  {
-    "title": "代码清单29-12: 启动 Spring Boot 应用",
-    "lang": "bash",
-    "chapter_file": "chapter-029.md",
-    "line": 768,
-    "extracted_file": "src\\代码清单29-12_ 启动 Spring Boot 应用.sh",
-    "source": "code/ecommerce-oms/backend/pom.xml"
-  },
-  {
-    "title": "代码清单30-1: CreateOrderRequest.java",
-    "lang": "java",
-    "chapter_file": "chapter-030.md",
-    "line": 33,
-    "extracted_file": "src\\代码清单30-1_ CreateOrderRequest.java.java",
-    "source": "code/ecommerce-oms/backend/src/main/java/com/zcqiand/ecommerce/dto/CreateOrderRequest.java"
-  },
-  {
-    "title": "代码清单30-2: ApiResponse.java（统一响应封装）",
-    "lang": "java",
-    "chapter_file": "chapter-030.md",
-    "line": 69,
-    "extracted_file": "src\\代码清单30-2_ ApiResponse.java（统一响应封装）.java",
-    "source": "code/ecommerce-oms/backend/src/main/java/com/zcqiand/ecommerce/dto/ApiResponse.java"
-  },
-  {
-    "title": "代码清单30-3: OrderService.java 核心方法",
-    "lang": "java",
-    "chapter_file": "chapter-030.md",
+    "title": "代码清单28-3: 范围圈定判据二：菜单按登录身份下发（冻结版摘录）",
+    "lang": "ts",
+    "chapter_file": "chapter-028.md",
     "line": 109,
-    "extracted_file": "src\\代码清单30-3_ OrderService.java 核心方法.java",
-    "source": "code/ecommerce-oms/backend/src/main/java/com/zcqiand/ecommerce/service/OrderService.java"
+    "extracted_file": "src\\代码清单28-3_ 范围圈定判据二：菜单按登录身份下发（冻结版摘录）.ts",
+    "source": "code/lab-management-system-nextjs/src/app/api/auth/menus/route.ts"
   },
   {
-    "title": "代码清单30-4: OrderController.java",
-    "lang": "java",
-    "chapter_file": "chapter-030.md",
-    "line": 189,
-    "extracted_file": "src\\代码清单30-4_ OrderController.java.java",
-    "source": "code/ecommerce-oms/backend/src/main/java/com/zcqiand/ecommerce/controller/OrderController.java"
+    "title": "代码清单28-4: AGENTS.md 产品口径条款（教学演绎层）",
+    "lang": "markdown",
+    "chapter_file": "chapter-028.md",
+    "line": 162,
+    "extracted_file": "src\\代码清单28-4_ AGENTS.md 产品口径条款（教学演绎层）.md",
+    "source": null
   },
   {
-    "title": "代码清单30-5: OrderStatus.java 枚举",
-    "lang": "java",
-    "chapter_file": "chapter-030.md",
-    "line": 279,
-    "extracted_file": "src\\代码清单30-5_ OrderStatus.java 枚举.java",
-    "source": "code/ecommerce-oms/backend/src/main/java/com/zcqiand/ecommerce/entity/OrderStatus.java"
+    "title": "代码清单28-5: config.toml 行为配置段（教学演绎层）",
+    "lang": "toml",
+    "chapter_file": "chapter-028.md",
+    "line": 173,
+    "extracted_file": "src\\代码清单28-5_ config.toml 行为配置段（教学演绎层）.toml",
+    "source": null
   },
   {
-    "title": "代码清单30-6: OrderService 状态变更方法",
-    "lang": "java",
-    "chapter_file": "chapter-030.md",
-    "line": 307,
-    "extracted_file": "src\\代码清单30-6_ OrderService 状态变更方法.java",
-    "source": "code/ecommerce-oms/backend/src/main/java/com/zcqiand/ecommerce/service/OrderService.java"
-  },
-  {
-    "title": "代码清单30-7: OrderController 状态变更端点",
-    "lang": "java",
-    "chapter_file": "chapter-030.md",
-    "line": 422,
-    "extracted_file": "src\\代码清单30-7_ OrderController 状态变更端点.java",
-    "source": "code/ecommerce-oms/backend/src/main/java/com/zcqiand/ecommerce/controller/OrderController.java"
-  },
-  {
-    "title": "代码清单30-8: plaintext 代码片段",
-    "lang": "plaintext",
-    "chapter_file": "chapter-030.md",
-    "line": 520,
-    "extracted_file": "src\\代码清单30-8_ plaintext 代码片段.txt",
-    "source": "code/ecommerce-oms/backend/src/main/java/com/zcqiand/ecommerce/"
-  },
-  {
-    "title": "代码清单30-9: 以 Profile 执行任务",
-    "lang": "bash",
-    "chapter_file": "chapter-030.md",
-    "line": 566,
-    "extracted_file": "src\\代码清单30-9_ 以 Profile 执行任务.sh",
-    "source": "code/ecommerce-oms/backend/"
-  },
-  {
-    "title": "代码清单30-10: Shell 命令",
-    "lang": "bash",
-    "chapter_file": "chapter-030.md",
-    "line": 584,
-    "extracted_file": "src\\代码清单30-10_ Shell 命令.sh",
-    "source": "code/ecommerce-oms/backend/"
-  },
-  {
-    "title": "代码清单30-11: OrderStatus 单元测试",
-    "lang": "java",
-    "chapter_file": "chapter-030.md",
-    "line": 621,
-    "extracted_file": "src\\代码清单30-11_ OrderStatus 单元测试.java",
-    "source": "code/ecommerce-oms/backend/src/test/java/com/zcqiand/ecommerce/"
-  },
-  {
-    "title": "代码清单31-1: InventoryService.java 核心方法",
-    "lang": "java",
-    "chapter_file": "chapter-031.md",
+    "title": "代码清单29-1: 功能蓝图全文（教学演绎层）",
+    "lang": "markdown",
+    "chapter_file": "chapter-029.md",
     "line": 33,
-    "extracted_file": "src\\代码清单31-1_ InventoryService.java 核心方法.java",
-    "source": "code/ecommerce-oms/backend/src/main/java/com/zcqiand/ecommerce/service/InventoryService.java"
+    "extracted_file": "src\\代码清单29-1_ 功能蓝图全文（教学演绎层）.md",
+    "source": null
   },
   {
-    "title": "代码清单31-2: InventoryController.java",
-    "lang": "java",
+    "title": "代码清单29-2: 功能蓝图优先级表（教学演绎层）",
+    "lang": "markdown",
+    "chapter_file": "chapter-029.md",
+    "line": 98,
+    "extracted_file": "src\\代码清单29-2_ 功能蓝图优先级表（教学演绎层）.md",
+    "source": null
+  },
+  {
+    "title": "代码清单30-1: 数据骨架说明（教学演绎层）",
+    "lang": "markdown",
+    "chapter_file": "chapter-030.md",
+    "line": 42,
+    "extracted_file": "src\\代码清单30-1_ 数据骨架说明（教学演绎层）.md",
+    "source": null
+  },
+  {
+    "title": "代码清单30-2: 计算方法列表的级联过滤（冻结版摘录）",
+    "lang": "tsx",
+    "chapter_file": "chapter-030.md",
+    "line": 82,
+    "extracted_file": "src\\代码清单30-2_ 计算方法列表的级联过滤（冻结版摘录）.tsx",
+    "source": "code/lab-management-system-nextjs/src/features/inspection-capability/CalculationMethodList.tsx"
+  },
+  {
+    "title": "代码清单30-4: 技术要求的必带守卫（冻结版摘录）",
+    "lang": "tsx",
+    "chapter_file": "chapter-030.md",
+    "line": 118,
+    "extracted_file": "src\\代码清单30-4_ 技术要求的必带守卫（冻结版摘录）.tsx",
+    "source": "code/lab-management-system-nextjs/src/features/inspection-capability/TechnicalRequirementList.tsx"
+  },
+  {
+    "title": "代码清单30-5: 三张清单落位记录（教学演绎层）",
+    "lang": "markdown",
+    "chapter_file": "chapter-030.md",
+    "line": 152,
+    "extracted_file": "src\\代码清单30-5_ 三张清单落位记录（教学演绎层）.md",
+    "source": null
+  },
+  {
+    "title": "代码清单31-1: 基础数据字典清单（教学演绎层）",
+    "lang": "markdown",
     "chapter_file": "chapter-031.md",
-    "line": 139,
-    "extracted_file": "src\\代码清单31-2_ InventoryController.java.java",
-    "source": "code/ecommerce-oms/backend/src/main/java/com/zcqiand/ecommerce/controller/InventoryController.java"
+    "line": 23,
+    "extracted_file": "src\\代码清单31-1_ 基础数据字典清单（教学演绎层）.md",
+    "source": null
   },
   {
-    "title": "代码清单31-3: OrderService 支付与取消方法",
-    "lang": "java",
+    "title": "代码清单31-2: 「新建维护页」命令定义（教学演绎层）",
+    "lang": "markdown",
     "chapter_file": "chapter-031.md",
-    "line": 225,
-    "extracted_file": "src\\代码清单31-3_ OrderService 支付与取消方法.java",
-    "source": "code/ecommerce-oms/backend/src/main/java/com/zcqiand/ecommerce/service/OrderService.java"
-  },
-  {
-    "title": "代码清单31-4: InventoryRepository.java 悲观锁",
-    "lang": "java",
-    "chapter_file": "chapter-031.md",
-    "line": 290,
-    "extracted_file": "src\\代码清单31-4_ InventoryRepository.java 悲观锁.java",
-    "source": "code/ecommerce-oms/backend/src/main/java/com/zcqiand/ecommerce/repository/InventoryRepository.java"
-  },
-  {
-    "title": "代码清单31-5: SupplierController.java",
-    "lang": "java",
-    "chapter_file": "chapter-031.md",
-    "line": 312,
-    "extracted_file": "src\\代码清单31-5_ SupplierController.java.java",
-    "source": "code/ecommerce-oms/backend/src/main/java/com/zcqiand/ecommerce/controller/SupplierController.java"
-  },
-  {
-    "title": "代码清单31-6: SupplierService 关联管理",
-    "lang": "java",
-    "chapter_file": "chapter-031.md",
-    "line": 369,
-    "extracted_file": "src\\代码清单31-6_ SupplierService 关联管理.java",
-    "source": "code/ecommerce-oms/backend/src/main/java/com/zcqiand/ecommerce/service/SupplierService.java"
-  },
-  {
-    "title": "代码清单31-7: InventoryService 双源查询",
-    "lang": "java",
-    "chapter_file": "chapter-031.md",
-    "line": 438,
-    "extracted_file": "src\\代码清单31-7_ InventoryService 双源查询.java",
-    "source": "code/ecommerce-oms/backend/src/main/java/com/zcqiand/ecommerce/service/InventoryService.java"
-  },
-  {
-    "title": "代码清单31-8: Shell 命令",
-    "lang": "bash",
-    "chapter_file": "chapter-031.md",
-    "line": 480,
-    "extracted_file": "src\\代码清单31-8_ Shell 命令.sh",
-    "source": "code/ecommerce-oms/backend/"
-  },
-  {
-    "title": "代码清单31-9: Shell 命令",
-    "lang": "bash",
-    "chapter_file": "chapter-031.md",
-    "line": 509,
-    "extracted_file": "src\\代码清单31-9_ Shell 命令.sh",
-    "source": "code/ecommerce-oms/backend/"
-  },
-  {
-    "title": "代码清单31-10: 库存对账脚本",
-    "lang": "bash",
-    "chapter_file": "chapter-031.md",
-    "line": 533,
-    "extracted_file": "src\\代码清单31-10_ 库存对账脚本.sh",
-    "source": "code/ecommerce-oms/backend/"
-  },
-  {
-    "title": "代码清单32-1: OrderStatus 枚举定义",
-    "lang": "java",
-    "chapter_file": "chapter-032.md",
     "line": 55,
-    "extracted_file": "src\\代码清单32-1_ OrderStatus 枚举定义.java",
-    "source": "code/ecommerce-oms/backend/src/main/java/com/zcqiand/ecommerce/entity/OrderStatus.java"
-  },
-  {
-    "title": "代码清单32-2: Order 实体的状态约束",
-    "lang": "java",
-    "chapter_file": "chapter-032.md",
-    "line": 73,
-    "extracted_file": "src\\代码清单32-2_ Order 实体的状态约束.java",
-    "source": "code/ecommerce-oms/backend/src/main/java/com/zcqiand/ecommerce/entity/Order.java"
-  },
-  {
-    "title": "代码清单32-3: 两级审批阈值的定义",
-    "lang": "java",
-    "chapter_file": "chapter-032.md",
-    "line": 136,
-    "extracted_file": "src\\代码清单32-3_ 两级审批阈值的定义.java",
-    "source": "code/ecommerce-oms/backend/src/main/java/com/zcqiand/ecommerce/service/OrderService.java"
-  },
-  {
-    "title": "代码清单32-4: 订单提交方法",
-    "lang": "java",
-    "chapter_file": "chapter-032.md",
-    "line": 166,
-    "extracted_file": "src\\代码清单32-4_ 订单提交方法.java",
-    "source": "code/ecommerce-oms/backend/src/main/java/com/zcqiand/ecommerce/service/OrderService.java"
-  },
-  {
-    "title": "代码清单32-5: 审批通过方法",
-    "lang": "java",
-    "chapter_file": "chapter-032.md",
-    "line": 187,
-    "extracted_file": "src\\代码清单32-5_ 审批通过方法.java",
-    "source": "code/ecommerce-oms/backend/src/main/java/com/zcqiand/ecommerce/service/OrderService.java"
-  },
-  {
-    "title": "代码清单32-6: 锁定库存方法",
-    "lang": "java",
-    "chapter_file": "chapter-032.md",
-    "line": 238,
-    "extracted_file": "src\\代码清单32-6_ 锁定库存方法.java",
-    "source": "code/ecommerce-oms/backend/src/main/java/com/zcqiand/ecommerce/service/InventoryService.java"
-  },
-  {
-    "title": "代码清单32-7: 支付成功扣减库存",
-    "lang": "java",
-    "chapter_file": "chapter-032.md",
-    "line": 259,
-    "extracted_file": "src\\代码清单32-7_ 支付成功扣减库存.java",
-    "source": "code/ecommerce-oms/backend/src/main/java/com/zcqiand/ecommerce/service/InventoryService.java"
-  },
-  {
-    "title": "代码清单32-8: 取消订单时的库存处理",
-    "lang": "java",
-    "chapter_file": "chapter-032.md",
-    "line": 281,
-    "extracted_file": "src\\代码清单32-8_ 取消订单时的库存处理.java",
-    "source": "code/ecommerce-oms/backend/src/main/java/com/zcqiand/ecommerce/service/OrderService.java"
-  },
-  {
-    "title": "代码清单32-9: Shell 命令",
-    "lang": "bash",
-    "chapter_file": "chapter-032.md",
-    "line": 317,
-    "extracted_file": "src\\代码清单32-9_ Shell 命令.sh",
-    "source": "code/ecommerce-oms/docker-compose.yml"
-  },
-  {
-    "title": "代码清单32-10: Shell 命令",
-    "lang": "bash",
-    "chapter_file": "chapter-032.md",
-    "line": 346,
-    "extracted_file": "src\\代码清单32-10_ Shell 命令.sh",
-    "source": "code/ecommerce-oms/docker-compose.yml"
-  },
-  {
-    "title": "代码清单32-11: Shell 命令",
-    "lang": "bash",
-    "chapter_file": "chapter-032.md",
-    "line": 360,
-    "extracted_file": "src\\代码清单32-11_ Shell 命令.sh",
-    "source": "code/ecommerce-oms/docker-compose.yml"
-  },
-  {
-    "title": "代码清单32-12: Shell 命令",
-    "lang": "bash",
-    "chapter_file": "chapter-032.md",
-    "line": 380,
-    "extracted_file": "src\\代码清单32-12_ Shell 命令.sh",
-    "source": "code/ecommerce-oms/docker-compose.yml"
-  },
-  {
-    "title": "代码清单33-1: API 客户端定义",
-    "lang": "typescript",
-    "chapter_file": "chapter-033.md",
-    "line": 21,
-    "extracted_file": "src\\代码清单33-1_ API 客户端定义.ts",
-    "source": "code/ecommerce-oms/frontend/src/api/client.ts"
-  },
-  {
-    "title": "代码清单33-2: App 路由配置",
-    "lang": "typescript",
-    "chapter_file": "chapter-033.md",
-    "line": 84,
-    "extracted_file": "src\\代码清单33-2_ App 路由配置.ts",
-    "source": "code/ecommerce-oms/frontend/src/App.tsx"
-  },
-  {
-    "title": "代码清单33-3: ProductList 数据获取",
-    "lang": "typescript",
-    "chapter_file": "chapter-033.md",
-    "line": 113,
-    "extracted_file": "src\\代码清单33-3_ ProductList 数据获取.ts",
-    "source": "code/ecommerce-oms/frontend/src/pages/ProductList.tsx"
-  },
-  {
-    "title": "代码清单33-4: ProductList 删除逻辑",
-    "lang": "typescript",
-    "chapter_file": "chapter-033.md",
-    "line": 147,
-    "extracted_file": "src\\代码清单33-4_ ProductList 删除逻辑.ts",
-    "source": "code/ecommerce-oms/frontend/src/pages/ProductList.tsx"
-  },
-  {
-    "title": "代码清单33-5: ProductList 表格渲染",
-    "lang": "typescript",
-    "chapter_file": "chapter-033.md",
-    "line": 166,
-    "extracted_file": "src\\代码清单33-5_ ProductList 表格渲染.ts",
-    "source": "code/ecommerce-oms/frontend/src/pages/ProductList.tsx"
-  },
-  {
-    "title": "代码清单33-6: 订单状态标签与颜色",
-    "lang": "typescript",
-    "chapter_file": "chapter-033.md",
-    "line": 210,
-    "extracted_file": "src\\代码清单33-6_ 订单状态标签与颜色.ts",
-    "source": "code/ecommerce-oms/frontend/src/pages/OrderList.tsx"
-  },
-  {
-    "title": "代码清单33-7: 订单操作按钮的条件渲染",
-    "lang": "typescript",
-    "chapter_file": "chapter-033.md",
-    "line": 239,
-    "extracted_file": "src\\代码清单33-7_ 订单操作按钮的条件渲染.ts",
-    "source": "code/ecommerce-oms/frontend/src/pages/OrderList.tsx"
-  },
-  {
-    "title": "代码清单33-8: 订单状态操作处理",
-    "lang": "typescript",
-    "chapter_file": "chapter-033.md",
-    "line": 279,
-    "extracted_file": "src\\代码清单33-8_ 订单状态操作处理.ts",
-    "source": "code/ecommerce-oms/frontend/src/pages/OrderList.tsx"
-  },
-  {
-    "title": "代码清单33-9: 订单商品动态添加",
-    "lang": "typescript",
-    "chapter_file": "chapter-033.md",
-    "line": 319,
-    "extracted_file": "src\\代码清单33-9_ 订单商品动态添加.ts",
-    "source": "code/ecommerce-oms/frontend/src/pages/OrderCreate.tsx"
-  },
-  {
-    "title": "代码清单33-10: 订单总额与审批级别计算",
-    "lang": "typescript",
-    "chapter_file": "chapter-033.md",
-    "line": 353,
-    "extracted_file": "src\\代码清单33-10_ 订单总额与审批级别计算.ts",
-    "source": "code/ecommerce-oms/frontend/src/pages/OrderCreate.tsx"
-  },
-  {
-    "title": "代码清单33-11: 订单创建提交",
-    "lang": "typescript",
-    "chapter_file": "chapter-033.md",
-    "line": 381,
-    "extracted_file": "src\\代码清单33-11_ 订单创建提交.ts",
-    "source": "code/ecommerce-oms/frontend/src/pages/OrderCreate.tsx"
-  },
-  {
-    "title": "代码清单33-12: Shell 命令",
-    "lang": "bash",
-    "chapter_file": "chapter-033.md",
-    "line": 421,
-    "extracted_file": "src\\代码清单33-12_ Shell 命令.sh",
-    "source": "code/ecommerce-oms/docker-compose.yml"
-  },
-  {
-    "title": "代码清单33-13: Shell 命令",
-    "lang": "bash",
-    "chapter_file": "chapter-033.md",
-    "line": 435,
-    "extracted_file": "src\\代码清单33-13_ Shell 命令.sh",
-    "source": "code/ecommerce-oms/docker-compose.yml"
-  },
-  {
-    "title": "代码清单33-14: Shell 命令",
-    "lang": "bash",
-    "chapter_file": "chapter-033.md",
-    "line": 451,
-    "extracted_file": "src\\代码清单33-14_ Shell 命令.sh",
-    "source": "code/ecommerce-oms/docker-compose.yml"
-  },
-  {
-    "title": "代码清单33-15: Shell 命令",
-    "lang": "bash",
-    "chapter_file": "chapter-033.md",
-    "line": 471,
-    "extracted_file": "src\\代码清单33-15_ Shell 命令.sh",
-    "source": "code/ecommerce-oms/docker-compose.yml"
-  },
-  {
-    "title": "代码清单34-1: OrderServiceTest.java",
-    "lang": "java",
-    "chapter_file": "chapter-034.md",
-    "line": 17,
-    "extracted_file": "src\\代码清单34-1_ OrderServiceTest.java.java",
-    "source": "code/ecommerce-oms/backend/src/test/java/com/zcqiand/ecommerce/service/OrderServiceTest.java"
-  },
-  {
-    "title": "代码清单34-2: Maven 测试命令",
-    "lang": "bash",
-    "chapter_file": "chapter-034.md",
-    "line": 205,
-    "extracted_file": "src\\代码清单34-2_ Maven 测试命令.sh",
-    "source": "code/ecommerce-oms/backend/"
-  },
-  {
-    "title": "代码清单34-3: ci.yml",
-    "lang": "yaml",
-    "chapter_file": "chapter-034.md",
-    "line": 235,
-    "extracted_file": "src\\代码清单34-3_ ci.yml.yml",
-    "source": "code/ecommerce-oms/.github/workflows/ci.yml"
-  },
-  {
-    "title": "代码清单35-1: SharedMemory 实现",
-    "lang": "python",
-    "chapter_file": "chapter-035.md",
-    "line": 33,
-    "extracted_file": "src\\代码清单35-1_ SharedMemory 实现.py",
+    "extracted_file": "src\\代码清单31-2_ 「新建维护页」命令定义（教学演绎层）.md",
     "source": null
   },
   {
-    "title": "代码清单35-2: Agent Loop 伪代码",
-    "lang": "python",
-    "chapter_file": "chapter-035.md",
-    "line": 60,
-    "extracted_file": "src\\代码清单35-2_ Agent Loop 伪代码.py",
+    "title": "代码清单31-3: 型号维护页的组件签名与四入口登记（冻结版摘录）",
+    "lang": "tsx",
+    "chapter_file": "chapter-031.md",
+    "line": 87,
+    "extracted_file": "src\\代码清单31-3_ 型号维护页的组件签名与四入口登记（冻结版摘录）.tsx",
+    "source": "code/lab-management-system-nextjs/src/features/dicts/CategoryDictList.tsx"
+  },
+  {
+    "title": "代码清单31-4: 规格维护页落位：挂接表里的规格一行（冻结版摘录）",
+    "lang": "tsx",
+    "chapter_file": "chapter-031.md",
+    "line": 128,
+    "extracted_file": "src\\代码清单31-4_ 规格维护页落位：挂接表里的规格一行（冻结版摘录）.tsx",
+    "source": "code/lab-management-system-nextjs/src/features/dicts/CategoryDictList.tsx"
+  },
+  {
+    "title": "代码清单31-5: 牌号维护页落位：挂接表里的牌号一行（冻结版摘录）",
+    "lang": "tsx",
+    "chapter_file": "chapter-031.md",
+    "line": 141,
+    "extracted_file": "src\\代码清单31-5_ 牌号维护页落位：挂接表里的牌号一行（冻结版摘录）.tsx",
+    "source": "code/lab-management-system-nextjs/src/features/dicts/CategoryDictList.tsx"
+  },
+  {
+    "title": "代码清单32-1: 检测能力三件套落地顺序清单（教学演绎层）",
+    "lang": "markdown",
+    "chapter_file": "chapter-032.md",
+    "line": 23,
+    "extracted_file": "src\\代码清单32-1_ 检测能力三件套落地顺序清单（教学演绎层）.md",
     "source": null
   },
   {
-    "title": "代码清单35-3: PlannerAgent 实现",
-    "lang": "python",
-    "chapter_file": "chapter-035.md",
-    "line": 116,
-    "extracted_file": "src\\代码清单35-3_ PlannerAgent 实现.py",
-    "source": null
-  },
-  {
-    "title": "代码清单35-4: TutorAgent 实现",
-    "lang": "python",
-    "chapter_file": "chapter-035.md",
-    "line": 149,
-    "extracted_file": "src\\代码清单35-4_ TutorAgent 实现.py",
-    "source": null
-  },
-  {
-    "title": "代码清单35-5: EvaluatorAgent 实现",
-    "lang": "python",
-    "chapter_file": "chapter-035.md",
-    "line": 182,
-    "extracted_file": "src\\代码清单35-5_ EvaluatorAgent 实现.py",
-    "source": null
-  },
-  {
-    "title": "代码清单35-6: GraderAgent 实现",
-    "lang": "python",
-    "chapter_file": "chapter-035.md",
-    "line": 218,
-    "extracted_file": "src\\代码清单35-6_ GraderAgent 实现.py",
-    "source": null
-  },
-  {
-    "title": "代码清单35-7: SocraticTutorAgent 实现",
-    "lang": "python",
-    "chapter_file": "chapter-035.md",
-    "line": 242,
-    "extracted_file": "src\\代码清单35-7_ SocraticTutorAgent 实现.py",
-    "source": null
-  },
-  {
-    "title": "代码清单35-8: FakeClient 测试客户端",
-    "lang": "python",
-    "chapter_file": "chapter-035.md",
-    "line": 271,
-    "extracted_file": "src\\代码清单35-8_ FakeClient 测试客户端.py",
-    "source": null
-  },
-  {
-    "title": "代码清单35-9: 端到端测试用例",
-    "lang": "python",
-    "chapter_file": "chapter-035.md",
-    "line": 293,
-    "extracted_file": "src\\代码清单35-9_ 端到端测试用例.py",
-    "source": null
-  },
-  {
-    "title": "代码清单35-1: 测试数据库配置",
-    "lang": "yaml",
-    "chapter_file": "chapter-035.md",
-    "line": 339,
-    "extracted_file": "src\\代码清单35-1_ 测试数据库配置.yml",
-    "source": null
-  },
-  {
-    "title": "代码清单35-2: .env.example",
-    "lang": "bash",
-    "chapter_file": "chapter-035.md",
-    "line": 364,
-    "extracted_file": "src\\代码清单35-2_ .env.example.sh",
-    "source": null
-  },
-  {
-    "title": "代码清单36-1: 核心三 Agent 函数签名",
-    "lang": "python",
-    "chapter_file": "chapter-036.md",
-    "line": 15,
-    "extracted_file": "src\\代码清单36-1_ 核心三 Agent 函数签名.py",
-    "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/agents.py"
-  },
-  {
-    "title": "代码清单36-2: 出题与批改 Agent 函数签名",
-    "lang": "python",
-    "chapter_file": "chapter-036.md",
+    "title": "代码清单32-2: 检测专项新建/编辑弹窗挂载（冻结版摘录）",
+    "lang": "tsx",
+    "chapter_file": "chapter-032.md",
     "line": 45,
-    "extracted_file": "src\\代码清单36-2_ 出题与批改 Agent 函数签名.py",
-    "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/"
+    "extracted_file": "src\\代码清单32-2_ 检测专项新建_编辑弹窗挂载（冻结版摘录）.tsx",
+    "source": "code/lab-management-system-nextjs/src/features/inspection-capability/InspectionCapabilityPage.tsx"
   },
   {
-    "title": "代码清单36-3: 苏格拉底辅导 Agent 函数签名",
-    "lang": "python",
-    "chapter_file": "chapter-036.md",
+    "title": "代码清单32-3: 页头「新建」按钮：弹窗入口（冻结版摘录）",
+    "lang": "tsx",
+    "chapter_file": "chapter-032.md",
+    "line": 68,
+    "extracted_file": "src\\代码清单32-3_ 页头「新建」按钮：弹窗入口（冻结版摘录）.tsx",
+    "source": "code/lab-management-system-nextjs/src/features/inspection-capability/InspectionCapabilityPage.tsx"
+  },
+  {
+    "title": "代码清单32-4: 行内「编辑」按钮与官方行删除守卫（冻结版摘录）",
+    "lang": "tsx",
+    "chapter_file": "chapter-032.md",
+    "line": 83,
+    "extracted_file": "src\\代码清单32-4_ 行内「编辑」按钮与官方行删除守卫（冻结版摘录）.tsx",
+    "source": "code/lab-management-system-nextjs/src/features/inspection-capability/InspectionCapabilityPage.tsx"
+  },
+  {
+    "title": "代码清单32-5: 写入检查闸 hooks 配置（教学直写）",
+    "lang": "jsonc",
+    "chapter_file": "chapter-032.md",
+    "line": 122,
+    "extracted_file": "src\\代码清单32-5_ 写入检查闸 hooks 配置（教学直写）.jsonc",
+    "source": null
+  },
+  {
+    "title": "代码清单32-6: AGENTS.md 检测能力禁区条款（教学直写）",
+    "lang": "markdown",
+    "chapter_file": "chapter-032.md",
+    "line": 170,
+    "extracted_file": "src\\代码清单32-6_ AGENTS.md 检测能力禁区条款（教学直写）.md",
+    "source": null
+  },
+  {
+    "title": "代码清单33-1: 第一站入口：「录入结果」按钮（冻结版摘录）",
+    "lang": "tsx",
+    "chapter_file": "chapter-033.md",
+    "line": 38,
+    "extracted_file": "src\\代码清单33-1_ 第一站入口：「录入结果」按钮（冻结版摘录）.tsx",
+    "source": "code/lab-management-system-nextjs/src/features/data-entry/DataEntryPage.tsx"
+  },
+  {
+    "title": "代码清单33-2: 第二站入口：行内「安排」按钮（冻结版摘录）",
+    "lang": "tsx",
+    "chapter_file": "chapter-033.md",
     "line": 65,
-    "extracted_file": "src\\代码清单36-3_ 苏格拉底辅导 Agent 函数签名.py",
-    "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/socratic_tutor.py"
+    "extracted_file": "src\\代码清单33-2_ 第二站入口：行内「安排」按钮（冻结版摘录）.tsx",
+    "source": "code/lab-management-system-nextjs/src/features/task-assignment/TaskAssignmentPage.tsx"
   },
   {
-    "title": "代码清单36-4: SharedMemory 与快照类",
-    "lang": "python",
+    "title": "代码清单33-3: 任务分配的转换闸口（冻结版摘录）",
+    "lang": "tsx",
+    "chapter_file": "chapter-033.md",
+    "line": 89,
+    "extracted_file": "src\\代码清单33-3_ 任务分配的转换闸口（冻结版摘录）.tsx",
+    "source": "code/lab-management-system-nextjs/src/state/flowStore.ts"
+  },
+  {
+    "title": "代码清单33-4: 统一组件预留的锚点形参（冻结版摘录）",
+    "lang": "tsx",
+    "chapter_file": "chapter-033.md",
+    "line": 119,
+    "extracted_file": "src\\代码清单33-4_ 统一组件预留的锚点形参（冻结版摘录）.tsx",
+    "source": "code/lab-management-system-nextjs/src/features/flow-pipeline/FlowStagePage.tsx"
+  },
+  {
+    "title": "代码清单33-5: 第四站入口：详情页组件与路由参数（冻结版摘录）",
+    "lang": "tsx",
+    "chapter_file": "chapter-033.md",
+    "line": 137,
+    "extracted_file": "src\\代码清单33-5_ 第四站入口：详情页组件与路由参数（冻结版摘录）.tsx",
+    "source": "code/lab-management-system-nextjs/src/features/receipts/ReceiptDetailPage.tsx"
+  },
+  {
+    "title": "代码清单34-1: 参数界面预览入口行（冻结版逐字）",
+    "lang": "tsx",
+    "chapter_file": "chapter-034.md",
+    "line": 26,
+    "extracted_file": "src\\代码清单34-1_ 参数界面预览入口行（冻结版逐字）.tsx",
+    "source": "code/lab-management-system-nextjs/src/features/inspection-capability/ParamInterfaceList.tsx"
+  },
+  {
+    "title": "代码清单34-2: 参数界面预览弹窗（冻结版逐字）",
+    "lang": "tsx",
+    "chapter_file": "chapter-034.md",
+    "line": 40,
+    "extracted_file": "src\\代码清单34-2_ 参数界面预览弹窗（冻结版逐字）.tsx",
+    "source": "code/lab-management-system-nextjs/src/features/inspection-capability/ParamInterfacePreviewModal.tsx"
+  },
+  {
+    "title": "代码清单34-4: 卷四成本收口表（教学演绎层）",
+    "lang": "markdown",
+    "chapter_file": "chapter-034.md",
+    "line": 137,
+    "extracted_file": "src\\代码清单34-4_ 卷四成本收口表（教学演绎层）.md",
+    "source": null
+  },
+  {
+    "title": "代码清单34-5: 首版产品复盘（教学演绎层）",
+    "lang": "markdown",
+    "chapter_file": "chapter-034.md",
+    "line": 164,
+    "extracted_file": "src\\代码清单34-5_ 首版产品复盘（教学演绎层）.md",
+    "source": null
+  },
+  {
+    "title": "代码清单35-1: 第二产品与第一产品差异对照（教学演绎层）",
+    "lang": "markdown",
+    "chapter_file": "chapter-035.md",
+    "line": 30,
+    "extracted_file": "src\\代码清单35-1_ 第二产品与第一产品差异对照（教学演绎层）.md",
+    "source": null
+  },
+  {
+    "title": "代码清单35-2: config.toml 行为配置段（教学直写）",
+    "lang": "toml",
+    "chapter_file": "chapter-035.md",
+    "line": 54,
+    "extracted_file": "src\\代码清单35-2_ config.toml 行为配置段（教学直写）.toml",
+    "source": null
+  },
+  {
+    "title": "代码清单35-3: AGENTS.md 禁区条款（教学直写）",
+    "lang": "markdown",
+    "chapter_file": "chapter-035.md",
+    "line": 68,
+    "extracted_file": "src\\代码清单35-3_ AGENTS.md 禁区条款（教学直写）.md",
+    "source": null
+  },
+  {
+    "title": "代码清单35-4: 登录页表单落位（冻结版逐字）",
+    "lang": "tsx",
+    "chapter_file": "chapter-035.md",
+    "line": 95,
+    "extracted_file": "src\\代码清单35-4_ 登录页表单落位（冻结版逐字）.tsx",
+    "source": "code/saas-identity-platform-nextjs/src/app/login/page.tsx"
+  },
+  {
+    "title": "代码清单36-3: 成员关系核对记忆条目（教学演绎层）",
+    "lang": "markdown",
     "chapter_file": "chapter-036.md",
-    "line": 110,
-    "extracted_file": "src\\代码清单36-4_ SharedMemory 与快照类.py",
-    "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/shared_memory.py"
+    "line": 79,
+    "extracted_file": "src\\代码清单36-3_ 成员关系核对记忆条目（教学演绎层）.md",
+    "source": null
   },
   {
-    "title": "代码清单36-5: CostTracker",
-    "lang": "python",
+    "title": "代码清单36-4: 租户切换器触发按钮（冻结版摘录）",
+    "lang": "tsx",
     "chapter_file": "chapter-036.md",
-    "line": 181,
-    "extracted_file": "src\\代码清单36-5_ CostTracker.py",
-    "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/cost_tracker.py"
+    "line": 97,
+    "extracted_file": "src\\代码清单36-4_ 租户切换器触发按钮（冻结版摘录）.tsx",
+    "source": "code/saas-identity-platform-nextjs/src/components/tenant-switcher.tsx"
   },
   {
-    "title": "代码清单36-6: Agent 定义文件",
-    "lang": "bash",
+    "title": "代码清单36-5: 成员关系列举（冻结版摘录）",
+    "lang": "tsx",
     "chapter_file": "chapter-036.md",
-    "line": 209,
-    "extracted_file": "src\\代码清单36-6_ Agent 定义文件.sh",
-    "source": "code/ai-tutoring-multi-agent/.claude/agents/"
+    "line": 121,
+    "extracted_file": "src\\代码清单36-5_ 成员关系列举（冻结版摘录）.tsx",
+    "source": "code/saas-identity-platform-nextjs/src/components/tenant-switcher.tsx"
   },
   {
-    "title": "代码清单37-1: knowledge_graph.json",
-    "lang": "json",
+    "title": "代码清单36-6: 成员页分配角色（冻结版摘录）",
+    "lang": "tsx",
+    "chapter_file": "chapter-036.md",
+    "line": 146,
+    "extracted_file": "src\\代码清单36-6_ 成员页分配角色（冻结版摘录）.tsx",
+    "source": "code/saas-identity-platform-nextjs/src/app/tenants/[tenantId]/members/page.tsx"
+  },
+  {
+    "title": "代码清单37-2: 整批设置角色菜单（冻结版摘录）",
+    "lang": "tsx",
     "chapter_file": "chapter-037.md",
-    "line": 13,
-    "extracted_file": "src\\代码清单37-1_ knowledge_graph.json.json",
-    "source": "code/ai-tutoring-multi-agent/knowledge_base/math/knowledge_graph.json"
+    "line": 68,
+    "extracted_file": "src\\代码清单37-2_ 整批设置角色菜单（冻结版摘录）.tsx",
+    "source": "code/saas-identity-platform-nextjs/src/app/tenants/[tenantId]/roles/[roleId]/menus/page.tsx"
   },
   {
-    "title": "代码清单37-2: 知识文档路径",
-    "lang": "bash",
+    "title": "代码清单37-3: 清空角色菜单（冻结版摘录）",
+    "lang": "tsx",
     "chapter_file": "chapter-037.md",
-    "line": 133,
-    "extracted_file": "src\\代码清单37-2_ 知识文档路径.sh",
-    "source": "code/ai-tutoring-multi-agent/knowledge_base/math/"
+    "line": 95,
+    "extracted_file": "src\\代码清单37-3_ 清空角色菜单（冻结版摘录）.tsx",
+    "source": "code/saas-identity-platform-nextjs/src/app/tenants/[tenantId]/roles/[roleId]/menus/page.tsx"
   },
   {
-    "title": "代码清单37-3: recommend_next_kp 实现",
-    "lang": "python",
-    "chapter_file": "chapter-037.md",
-    "line": 147,
-    "extracted_file": "src\\代码清单37-3_ recommend_next_kp 实现.py",
-    "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/recommend_kp.py"
-  },
-  {
-    "title": "代码清单37-4: StudentTracker 核心方法",
-    "lang": "python",
-    "chapter_file": "chapter-037.md",
-    "line": 181,
-    "extracted_file": "src\\代码清单37-4_ StudentTracker 核心方法.py",
-    "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/student_tracker.py"
-  },
-  {
-    "title": "代码清单38-1: make_question 实现",
-    "lang": "python",
+    "title": "代码清单38-1: 订阅应用入口（冻结版摘录）",
+    "lang": "tsx",
     "chapter_file": "chapter-038.md",
-    "line": 13,
-    "extracted_file": "src\\代码清单38-1_ make_question 实现.py",
-    "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/question_maker.py"
+    "line": 26,
+    "extracted_file": "src\\代码清单38-1_ 订阅应用入口（冻结版摘录）.tsx",
+    "source": "code/saas-identity-platform-nextjs/src/app/tenants/[tenantId]/applications/page.tsx"
   },
   {
-    "title": "代码清单38-2: _parse_question 解析",
-    "lang": "python",
+    "title": "代码清单38-2: 更新应用订阅入口（冻结版摘录）",
+    "lang": "tsx",
     "chapter_file": "chapter-038.md",
-    "line": 57,
-    "extracted_file": "src\\代码清单38-2_ _parse_question 解析.py",
-    "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/question_maker.py"
+    "line": 75,
+    "extracted_file": "src\\代码清单38-2_ 更新应用订阅入口（冻结版摘录）.tsx",
+    "source": "code/saas-identity-platform-nextjs/src/app/tenants/[tenantId]/applications/page.tsx"
   },
   {
-    "title": "代码清单38-3: grade_answer 实现",
-    "lang": "python",
-    "chapter_file": "chapter-038.md",
-    "line": 94,
-    "extracted_file": "src\\代码清单38-3_ grade_answer 实现.py",
-    "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/grader.py"
-  },
-  {
-    "title": "代码清单38-4: _parse_grade 解析",
-    "lang": "python",
-    "chapter_file": "chapter-038.md",
-    "line": 138,
-    "extracted_file": "src\\代码清单38-4_ _parse_grade 解析.py",
-    "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/grader.py"
-  },
-  {
-    "title": "代码清单38-5: StudentTracker 实现",
-    "lang": "python",
+    "title": "代码清单38-4: 插件内斜杠命令与技能定义（教学直写）",
+    "lang": "markdown",
     "chapter_file": "chapter-038.md",
     "line": 167,
-    "extracted_file": "src\\代码清单38-5_ StudentTracker 实现.py",
-    "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/student_tracker.py"
-  },
-  {
-    "title": "代码清单39-1: recommend_next_kp 实现",
-    "lang": "python",
-    "chapter_file": "chapter-039.md",
-    "line": 13,
-    "extracted_file": "src\\代码清单39-1_ recommend_next_kp 实现.py",
-    "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/recommend_kp.py"
-  },
-  {
-    "title": "代码清单39-2: _can_study 实现",
-    "lang": "python",
-    "chapter_file": "chapter-039.md",
-    "line": 49,
-    "extracted_file": "src\\代码清单39-2_ _can_study 实现.py",
-    "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/recommend_kp.py"
-  },
-  {
-    "title": "代码清单39-3: _get_prerequisites 实现",
-    "lang": "python",
-    "chapter_file": "chapter-039.md",
-    "line": 63,
-    "extracted_file": "src\\代码清单39-3_ _get_prerequisites 实现.py",
-    "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/recommend_kp.py"
-  },
-  {
-    "title": "代码清单39-4: StudentTracker 核心方法",
-    "lang": "python",
-    "chapter_file": "chapter-039.md",
-    "line": 93,
-    "extracted_file": "src\\代码清单39-4_ StudentTracker 核心方法.py",
-    "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/student_tracker.py"
-  },
-  {
-    "title": "代码清单39-1: 学生追踪数据结构",
-    "lang": "json",
-    "chapter_file": "chapter-039.md",
-    "line": 125,
-    "extracted_file": "src\\代码清单39-1_ 学生追踪数据结构.json",
+    "extracted_file": "src\\代码清单38-4_ 插件内斜杠命令与技能定义（教学直写）.md",
     "source": null
   },
   {
-    "title": "代码清单40-1: socratic_tutor 实现",
+    "title": "代码清单39-2: 无头批量巡检编排命令",
+    "lang": "bash",
+    "chapter_file": "chapter-039.md",
+    "line": 70,
+    "extracted_file": "src\\代码清单39-2_ 无头批量巡检编排命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单39-4: 可重跑巡检脚本（Python SDK，教学代码）",
     "lang": "python",
+    "chapter_file": "chapter-039.md",
+    "line": 138,
+    "extracted_file": "src\\代码清单39-4_ 可重跑巡检脚本（Python SDK，教学代码）.py",
+    "source": null
+  },
+  {
+    "title": "代码清单40-2: 创建菜单（冻结版摘录）",
+    "lang": "tsx",
     "chapter_file": "chapter-040.md",
-    "line": 13,
-    "extracted_file": "src\\代码清单40-1_ socratic_tutor 实现.py",
-    "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/socratic_tutor.py"
-  },
-  {
-    "title": "代码清单40-2: SharedMemory 上下文方法",
-    "lang": "python",
-    "chapter_file": "chapter-040.md",
-    "line": 72,
-    "extracted_file": "src\\代码清单40-2_ SharedMemory 上下文方法.py",
-    "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/shared_memory.py"
-  },
-  {
-    "title": "代码清单40-3: 对话上下文压缩（外部实现）",
-    "lang": "python",
-    "chapter_file": "chapter-040.md",
-    "line": 123,
-    "extracted_file": "src\\代码清单40-3_ 对话上下文压缩（外部实现）.py",
-    "source": "code/ai-tutoring-multi-agent/src/ai_tutoring/"
-  },
-  {
-    "title": "代码清单41-1: FakeClient 实现",
-    "lang": "python",
-    "chapter_file": "chapter-041.md",
-    "line": 13,
-    "extracted_file": "src\\代码清单41-1_ FakeClient 实现.py",
-    "source": "code/ai-tutoring-multi-agent/tests/test_agents.py"
-  },
-  {
-    "title": "代码清单41-2: planner 测试",
-    "lang": "python",
-    "chapter_file": "chapter-041.md",
-    "line": 41,
-    "extracted_file": "src\\代码清单41-2_ planner 测试.py",
-    "source": "code/ai-tutoring-multi-agent/tests/test_agents.py"
-  },
-  {
-    "title": "代码清单41-3: tutor 测试",
-    "lang": "python",
-    "chapter_file": "chapter-041.md",
-    "line": 63,
-    "extracted_file": "src\\代码清单41-3_ tutor 测试.py",
-    "source": "code/ai-tutoring-multi-agent/tests/test_agents.py"
-  },
-  {
-    "title": "代码清单41-4: evaluator 测试",
-    "lang": "python",
-    "chapter_file": "chapter-041.md",
     "line": 81,
-    "extracted_file": "src\\代码清单41-4_ evaluator 测试.py",
-    "source": "code/ai-tutoring-multi-agent/tests/test_agents.py"
+    "extracted_file": "src\\代码清单40-2_ 创建菜单（冻结版摘录）.tsx",
+    "source": "code/saas-identity-platform-nextjs/src/app/admin/clients/[clientId]/menus/page.tsx"
   },
   {
-    "title": "代码清单41-5: 端到端编排测试",
-    "lang": "python",
-    "chapter_file": "chapter-041.md",
-    "line": 107,
-    "extracted_file": "src\\代码清单41-5_ 端到端编排测试.py",
-    "source": "code/ai-tutoring-multi-agent/tests/test_agents.py"
+    "title": "代码清单40-3: 切换父级（冻结版摘录）",
+    "lang": "tsx",
+    "chapter_file": "chapter-040.md",
+    "line": 114,
+    "extracted_file": "src\\代码清单40-3_ 切换父级（冻结版摘录）.tsx",
+    "source": "code/saas-identity-platform-nextjs/src/app/admin/clients/[clientId]/menus/page.tsx"
   },
   {
-    "title": "代码清单41-6: question_maker 测试",
-    "lang": "python",
+    "title": "代码清单41-1: 合入前 CI 检查配置（教学直写）",
+    "lang": "yaml",
     "chapter_file": "chapter-041.md",
-    "line": 144,
-    "extracted_file": "src\\代码清单41-6_ question_maker 测试.py",
-    "source": "code/ai-tutoring-multi-agent/tests/test_new_modules.py"
+    "line": 40,
+    "extracted_file": "src\\代码清单41-1_ 合入前 CI 检查配置（教学直写）.yml",
+    "source": null
   },
   {
-    "title": "代码清单41-7: grader 测试",
-    "lang": "python",
+    "title": "代码清单41-3: 订阅移除入口（冻结版摘录）",
+    "lang": "tsx",
     "chapter_file": "chapter-041.md",
-    "line": 165,
-    "extracted_file": "src\\代码清单41-7_ grader 测试.py",
-    "source": "code/ai-tutoring-multi-agent/tests/test_new_modules.py"
+    "line": 102,
+    "extracted_file": "src\\代码清单41-3_ 订阅移除入口（冻结版摘录）.tsx",
+    "source": "code/saas-identity-platform-nextjs/src/app/tenants/[tenantId]/applications/page.tsx"
   },
   {
-    "title": "代码清单41-8: student_tracker 测试",
-    "lang": "python",
+    "title": "代码清单41-4: 全书两卷成本收口表（教学演绎层）",
+    "lang": "markdown",
     "chapter_file": "chapter-041.md",
-    "line": 182,
-    "extracted_file": "src\\代码清单41-8_ student_tracker 测试.py",
-    "source": "code/ai-tutoring-multi-agent/tests/test_new_modules.py"
+    "line": 159,
+    "extracted_file": "src\\代码清单41-4_ 全书两卷成本收口表（教学演绎层）.md",
+    "source": null
   },
   {
-    "title": "代码清单41-9: recommend_kp 测试",
-    "lang": "python",
+    "title": "代码清单41-5: 第二产品运营复盘（教学演绎层）",
+    "lang": "markdown",
     "chapter_file": "chapter-041.md",
-    "line": 203,
-    "extracted_file": "src\\代码清单41-9_ recommend_kp 测试.py",
-    "source": "code/ai-tutoring-multi-agent/tests/test_new_modules.py"
-  },
-  {
-    "title": "代码清单41-10: socratic_tutor 测试",
-    "lang": "python",
-    "chapter_file": "chapter-041.md",
-    "line": 222,
-    "extracted_file": "src\\代码清单41-10_ socratic_tutor 测试.py",
-    "source": "code/ai-tutoring-multi-agent/tests/test_new_modules.py"
+    "line": 181,
+    "extracted_file": "src\\代码清单41-5_ 第二产品运营复盘（教学演绎层）.md",
+    "source": null
   }
 ]

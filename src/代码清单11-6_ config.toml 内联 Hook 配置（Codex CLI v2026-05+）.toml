@@ -1,0 +1,8 @@
+[[hooks.PreToolUse]]
+matcher = "^Bash$"
+
+[[hooks.PreToolUse.hooks]]
+type = "command"
+command = "python3 ~/.codex/hooks/security_gate.py"
+timeout = 10
+statusMessage = "安全检查中..."

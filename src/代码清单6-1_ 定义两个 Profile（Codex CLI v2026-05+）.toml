@@ -1,0 +1,17 @@
+# ~/.codex/config.toml
+
+[model]
+name = "gpt-5.3-codex"          # 默认模型
+reasoning_effort = "medium"      # 默认推理力度
+
+# Profile 1：日常开发
+[profiles.dev]
+model.name = "gpt-5.3-codex"
+model.reasoning_effort = "low"
+sandbox.mode = "workspace-write"
+
+# Profile 2：安全审查
+[profiles.audit]
+model.name = "gpt-5.4"
+model.reasoning_effort = "xhigh"
+sandbox.mode = "read-only"

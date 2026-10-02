@@ -1,0 +1,8 @@
+[features]
+memories = true                        # 全局开关
+
+[memories]
+generate_memories = true               # 是否自动生成记忆
+min_rollout_idle_hours = 2             # 线程闲置多久后触发提取
+max_rollout_age_days = 30              # 超过此天数的旧对话不参与提取
+max_memories = 200                     # 记忆总数上限
